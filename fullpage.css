@@ -644,50 +644,62 @@ html.fp-enabled,
 
 
 .usercentric{
+	max-height: 300px;
+	max-width: 300px;
 	display: block;
 	position: absolute;
 	transition: 0.5s;
 }
 
 
-
 #aboutme{
-		background: -webkit-gradient(linear, top left, bottom left, from(#80b8e8), to(#131f29));
-		background: -webkit-linear-gradient(#80b8e8, #131f29);
-		background: linear-gradient(#80b8e8,#131f29);
+		background: -webkit-gradient(linear, top left, bottom left, from(#F6F9FC), to(#F6F9FC));
+		background: -webkit-linear-gradient(#F6F9FC,#F6F9FC);
+		background: linear-gradient(#F6F9FC,#F6F9FC);
 	}
 
 #intro{
-		background: -webkit-gradient(linear, top left, bottom left, from(#131f29), to(#0A0A0A));
-		background: -webkit-linear-gradient(#131f29, #0A0A0A);
-		background: linear-gradient(#131f29,#0A0A0A);
+		background: -webkit-gradient(linear, top left, bottom left, from(#F6F9FC), to(#F6F9FC));
+		background: -webkit-linear-gradient(#F6F9FC,#F6F9FC);
+		background: linear-gradient(#F6F9FC,#F6F9FC);
 	}
 
+#skills{
+		background: -webkit-gradient(linear, top left, bottom left, from(#F6F9FC), to(#F6F9FC));
+		background: -webkit-linear-gradient(#F6F9FC,#F6F9FC);
+		background: linear-gradient(#F6F9FC,#F6F9FC);
+	}
+
+#more{
+		background: -webkit-gradient(linear, top left, bottom left, from(#F6F9FC), to(#F6F9FC));
+		background: -webkit-linear-gradient(#F6F9FC,#F6F9FC);
+		background: linear-gradient(#F6F9FC,#F6F9FC);
+	}
 
 /* fonts space */
 
 
 @font-face {
 	font-family: notosans;
-	src: url(../fonts/Noto/NotoSans-ExtraLight.ttf);
+	src: url(fonts/Noto/NotoSans-ExtraLight.ttf);
 	font-weight: 200;
 }
 
 @font-face {
 	font-family: notosans;
-	src: url(../fonts/Noto/NotoSans-Light.ttf);
+	src: url(fonts/Noto/NotoSans-Light.ttf);
 	font-weight: 300;
 }
 
 @font-face {
 	font-family: notosans;
-	src: url(../fonts/Noto/NotoSans-Regular.ttf);
+	src: url(fonts/Noto/NotoSans-Regular.ttf);
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: notosans;
-	src: url(../fonts/Noto/NotoSans-Italic.ttf);
+	src: url(fonts/Noto/NotoSans-Italic.ttf);
 	font-style: italic;
 	font-weight: 400;
 }
@@ -695,7 +707,7 @@ html.fp-enabled,
 
 @font-face {
 	font-family: notosansextracondensed;
-	src: url(../fonts/Noto/NotoSans-ExtraCondensed.ttf);
+	src: url(fonts/Noto/NotoSans-ExtraCondensed.ttf);
 	font-style: normal;
 	font-weight: 400;
 }
@@ -703,16 +715,23 @@ html.fp-enabled,
 
 @font-face {
 	font-family: notosansextracondensed;
-	src: url(../fonts/Noto/NotoSans-ExtraCondensedMedium.ttf);
+	src: url(fonts/Noto/NotoSans-ExtraCondensedMedium.ttf);
 	font-style: normal;
 	font-weight: 500;
 }
 
 @font-face {
 	font-family: notosansextracondensed;
-	src: url(../fonts/Noto/NotoSans-ExtraCondensedBlack.ttf);
+	src: url(fonts/Noto/NotoSans-ExtraCondensedBlack.ttf);
 	font-style: normal;
 	font-weight: 900;
+}
+
+@font-face {
+	font-family: majormonodisplay;
+	src: url(fonts/MajorMono/MajorMonoDisplay-Regular.ttf);
+	font-style: normal;
+	font-weight: 400;
 }
 
 
