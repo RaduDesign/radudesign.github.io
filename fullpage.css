@@ -72,17 +72,19 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+	transform: translate(0%,-110%);
 }
+
 .fp-controlArrow.fp-prev {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent black transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent black;
 }
 .fp-scrollable {
     overflow: hidden;
@@ -649,6 +651,76 @@ html.fp-enabled,
 	display: block;
 	position: absolute;
 	transition: 0.5s;
+	left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+}
+
+.namebox {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: auto;
+	top: 20%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+}
+
+.titlebox {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: auto;
+	top: 80%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+}
+
+.networking {
+	position: absolute;
+	display: block;
+	width: auto;
+	height: auto;
+	transform: translate(-50%,-50%);
+	left: 50%;
+}
+
+.sign {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: auto;
+	transform: translate(-50%,-50%);
+	left: 50%;
+}
+
+/* Games Elements */
+
+.gametitle {
+	position: absolute;
+	display: block;
+	width: auto;
+	height: 10%;
+}
+
+.imagepanel {
+	position: relative;
+	display: block;
+	width: 100%;
+	background-color: blueviolet;
+	height: 50%;
+	transform: translate(0%,-30%);
+}
+
+.description {
+	position: absolute;
+	display: block;
+	height: 100px;
+	width: 100px;
+	padding: 10px;
+	background-color:brown;
+	left:50%;
+	top:50%;
 }
 
 
@@ -918,9 +990,6 @@ hskillbutton {
 	.usercentric {
 		width: 680px;
 		height: 680px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -929,9 +998,6 @@ hskillbutton {
 	.usercentric {
 		width: 510px;
 		height: 510px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -939,9 +1005,6 @@ hskillbutton {
 	.usercentric {
 		width: 456px;
 		height: 456px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -949,9 +1012,6 @@ hskillbutton {
 	.usercentric {
 		width: 572px;
 		height: 572px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -960,9 +1020,6 @@ hskillbutton {
 	.usercentric {
 		width: 396px;
 		height: 396px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -971,9 +1028,6 @@ hskillbutton {
 	.usercentric {
 		width: 462px;
 		height: 462px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -982,9 +1036,9 @@ hskillbutton {
 	.usercentric {
 		width: 396px;
 		height: 396px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
+	}
+	.textbox {
+		top: 30%;
 	}
 }
 
@@ -993,9 +1047,6 @@ hskillbutton {
 	.usercentric {
 		width: 462px;
 		height: 462px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -1005,9 +1056,6 @@ hskillbutton {
 	.usercentric {
 		width: 300px;
 		height: 300px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -1016,9 +1064,6 @@ hskillbutton {
 	.usercentric {
 		width: 300px;
 		height: 300px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -1030,9 +1075,6 @@ hskillbutton {
 	.usercentric {
 		width: 274px;
 		height: 274px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -1041,9 +1083,6 @@ hskillbutton {
 	.usercentric {
 		width: 274px;
 		height: 274px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -1052,9 +1091,6 @@ hskillbutton {
 	.usercentric {
 		width: 254px;
 		height: 254px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
@@ -1063,22 +1099,24 @@ hskillbutton {
 	.usercentric {
 		width: 254px;
 		height: 254px;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 }
 
 
 @media only screen and (min-width: 0px) and (max-width:359px) and (orientation:landscape){
 	.usercentric {
-		display: none;
+		width: 100px;
+		height: 100px;
 	}
 }
 
 
 @media only screen and (min-width: 0px) and (max-width:359px) and (orientation:portrait){
 	.usercentric {
-		display: none;
+		width: 200px;
+		height: 200px;
+	}
+	.namebox {
+		top: 25%;
 	}
 }
