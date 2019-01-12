@@ -63,7 +63,7 @@ html.fp-enabled,
     -ms-user-select: none; /* IE10+ */
     position: absolute;
     z-index: 4;
-    top: 50%;
+    top: 35%;
     cursor: pointer;
     width: 0;
     height: 0;
@@ -72,19 +72,18 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
-	transform: translate(0%,-110%);
 }
 
 .fp-controlArrow.fp-prev {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent black transparent transparent;
+    border-color: transparent #F6F9FC transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent black;
+    border-color: transparent transparent transparent #F6F9FC;
 }
 .fp-scrollable {
     overflow: hidden;
@@ -707,7 +706,7 @@ html.fp-enabled,
 	position: relative;
 	display: block;
 	width: 100%;
-	background-color: blueviolet;
+	background-color: #0C2733;
 	height: 50%;
 	transform: translate(0%,-30%);
 }
@@ -715,12 +714,28 @@ html.fp-enabled,
 .description {
 	position: absolute;
 	display: block;
-	height: 100px;
-	width: 100px;
-	padding: 10px;
-	background-color:brown;
-	left:50%;
-	top:50%;
+	height: 34%;
+	width: 30%;
+	padding: 00px;
+	background-color:white;
+	left:10%;
+	bottom:3%;
+	box-shadow: 0px 0px 50px grey;
+	overflow: hidden;
+}
+
+.myresponsabilities {
+	position: absolute;
+	display: block;
+	height: 34%;
+	width: 47%;
+	padding: 0px;
+	background-color: white;
+	right: 10%;
+	bottom:3%;
+	transform: translate(0%,0%);
+	box-shadow: 0px 0px 50px grey;
+	overflow: hidden;
 }
 
 
