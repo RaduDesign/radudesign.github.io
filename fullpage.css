@@ -699,7 +699,34 @@ html.fp-enabled,
 	position: absolute;
 	display: block;
 	width: auto;
-	height: 10%;
+	height: 5%;
+	left: 10%;
+	top: 5%;
+	transform: translate(0%,-50%)
+}
+
+.textbox {
+	position: relative;
+	display: inline-block;
+	width: calc(100% - 60px);
+	height: auto;
+	left: 0%;
+	text-align: left;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.details {
+	position: absolute;
+	display: block;
+	width: auto;
+	height: 5%;
+	right: 10%;
+	top: 5%;
+	transform: translate(0%,-50%)
+	
 }
 
 .imagepanel {
@@ -722,6 +749,7 @@ html.fp-enabled,
 	bottom:3%;
 	box-shadow: 0px 0px 50px grey;
 	overflow: hidden;
+	z-index: 10;
 }
 
 .myresponsabilities {
@@ -736,6 +764,7 @@ html.fp-enabled,
 	transform: translate(0%,0%);
 	box-shadow: 0px 0px 50px grey;
 	overflow: hidden;
+	z-index: 10;
 }
 
 .imagehousing {

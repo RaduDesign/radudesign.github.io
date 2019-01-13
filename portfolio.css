@@ -76,25 +76,31 @@ h3{
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
+	padding-right: 30px;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: -px;
 	color: #0C2733;
 }
 
-iframe { scrolling:yes; }
-
 p1{
-	display: inline-block;
+	display: inline;
 	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 10px;
-	padding-bottom: 20px;
 	color: #0A0A0A;
-	text-align: left;
+	line-height: 20px;
+}
+
+p2{
+	display: inline-block;
+	font-size: 0.9em;
+	font-family: notosans;
+	font-weight: 500;
+	font-style: normal;
+	color: #0A0A0A;
+	line-height: 20px;
+	padding-top: 10px;
 }
 
 b1{
@@ -110,6 +116,15 @@ b2{
 	color: #0a0a0a;
 }
 
+gametitle{
+	font-size: 2.5em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #0C2733;
+	text-align: left;
+	vertical-align: middle;
+}
+
 b3{
 	font-size: 1.5em;
 	font-family: majormonodisplay;
@@ -119,6 +134,7 @@ b3{
 p{
 	font-size: 2em;
 }
+
 .intro p{
 	width: 50%;
 	margin: 0 auto;
