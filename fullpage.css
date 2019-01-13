@@ -738,6 +738,15 @@ html.fp-enabled,
 	overflow: hidden;
 }
 
+.imagehousing {
+	position: inherit;
+	display: block;
+	max-width: 80%;
+	height: 100%;
+	overflow: hidden;
+	left:50%;
+	transform: translate(-50%,0%);
+}
 
 #aboutme{
 		background: -webkit-gradient(linear, top left, bottom left, from(#F6F9FC), to(#F6F9FC));
