@@ -755,14 +755,14 @@ html.fp-enabled,
 	overflow: hidden;
 	left:50%;
 	transform: translate(-50%,0%);
-	background-color: black;
+	
 }
 
 .skilldisciplebox{
-	display: inline-block;
-	width:100px;
-	height: 10px;
-	background-color: aqua;
+	position: absolute;
+	display: block;
+	top:50%;
+	transform: translate(0%,-50%);
 }
 
 .skillprograms {
