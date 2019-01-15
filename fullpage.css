@@ -738,6 +738,51 @@ html.fp-enabled,
 	transform: translate(0%,-30%);
 }
 
+.skillspanel {
+	position: relative;
+	display: block;
+	width: 100%;
+	background-color: #0C2733;
+	height: 80%;
+	transform: translate(0%,0%);
+}
+
+.skillsbox {
+	position: inherit;
+	display: block;
+	max-width: 80%;
+	height: 100%;
+	overflow: hidden;
+	left:50%;
+	transform: translate(-50%,0%);
+	background-color: black;
+}
+
+.skilldisciplebox{
+	display: inline-block;
+	width:100px;
+	height: 10px;
+	background-color: aqua;
+}
+
+.skillprograms {
+	position: absolute;
+	display: table-cell;
+	max-height: 40%;
+	max-width: 80%;
+	left: 50%;
+	transform: translate(-50%,0%);
+	top: 65%;
+	overflow: hidden;
+}
+
+.imgp {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin: 5px;
+}
+
 .description {
 	position: absolute;
 	display: block;
