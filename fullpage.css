@@ -27,6 +27,7 @@ html.fp-enabled,
 	overflow: hidden;
 }
 .fp-slide {
+	position: relative;
     float: left;
 }
 .fp-slide, .fp-slidesContainer {
@@ -730,12 +731,13 @@ html.fp-enabled,
 }
 
 .imagepanel {
-	position: relative;
+	position: absolute;
 	display: block;
 	width: 100%;
 	background-color: #0C2733;
 	height: 50%;
-	transform: translate(0%,-30%);
+	top: 10%;
+	transform: translate(0%,0%);
 }
 
 .skillspanel {
@@ -750,7 +752,7 @@ html.fp-enabled,
 .skillsbox {
 	position: inherit;
 	display: block;
-	max-width: 80%;
+	max-width: 85%;
 	height: 100%;
 	overflow: hidden;
 	left:50%;
@@ -772,8 +774,20 @@ html.fp-enabled,
 	max-width: 80%;
 	left: 50%;
 	transform: translate(-50%,0%);
-	top: 65%;
+	bottom: 50px;
+	overflow:visible;
+}
+
+.skilllist {
+	position: absolute;
+	display: block;
+	max-height: 40%;
+	width: 60%;
+	left: 50%;
+	transform: translate(-50%,30%);
+	bottom: 50%;
 	overflow: hidden;
+	vertical-align: bottom;
 }
 
 .imgp {
@@ -781,6 +795,8 @@ html.fp-enabled,
 	width: 48px;
 	height: 48px;
 	margin: 5px;
+	background-color: #E53E30;
+	border-radius: 6px;
 }
 
 .description {
@@ -813,7 +829,7 @@ html.fp-enabled,
 }
 
 .imagehousing {
-	position: inherit;
+	position: relative;
 	display: block;
 	max-width: 80%;
 	height: 100%;
