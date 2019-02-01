@@ -752,7 +752,7 @@ html.fp-enabled,
 .skillsbox {
 	position: inherit;
 	display: block;
-	max-width: 85%;
+	width: calc(100% - 150px);
 	height: 100%;
 	overflow: hidden;
 	left:50%;
@@ -764,6 +764,7 @@ html.fp-enabled,
 	position: absolute;
 	display: block;
 	top:50%;
+	z-index: 4;
 	transform: translate(0%,-50%);
 }
 
@@ -831,10 +832,11 @@ html.fp-enabled,
 .imagehousing {
 	position: relative;
 	display: block;
-	max-width: 80%;
+	width: calc(100% - 150px);
+	left: 50%;
+	right: 50px;
 	height: 100%;
 	overflow: hidden;
-	left:50%;
 	transform: translate(-50%,0%);
 }
 

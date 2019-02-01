@@ -132,7 +132,7 @@
 
             //scrolling
             css3: true,
-            scrollingSpeed: 500,
+            scrollingSpeed: 300,
             autoScrolling: true,
             fitToSection: true,
             fitToSectionDelay: 1000,
@@ -2176,6 +2176,7 @@
 
             switch (e.keyCode) {
                 //up
+				case 87:
                 case 38:
                 case 33:
                     if(isScrollAllowed.k.up){
@@ -2190,6 +2191,7 @@
                         break;
                     }
                 /* falls through */
+				case 83:	
                 case 40:
                 case 34:
                     if(isScrollAllowed.k.down){
@@ -2211,14 +2213,19 @@
                     }
                     break;
 
+					
+					
                 //left
+				case 65:	
                 case 37:
                     if(isScrollAllowed.k.left){
                         moveSlideLeft();
                     }
                     break;
-
+					
+					
                 //right
+				case 68:	
                 case 39:
                     if(isScrollAllowed.k.right){
                         moveSlideRight();
