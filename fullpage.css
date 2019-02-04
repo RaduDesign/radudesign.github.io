@@ -768,6 +768,22 @@ html.fp-enabled,
 	transform: translate(0%,-50%);
 }
 
+.arrownameplateleft{
+	position: absolute;
+	display: block;
+	top:50%;
+	z-index: 4;
+	transform: translate(-50%,-50%) rotate(90deg);
+}
+
+.arrownameplateright{
+	position: absolute;
+	display: block;
+	top:50%;
+	z-index: 4;
+	transform: translate(50%,-50%) rotate(-90deg);
+}
+
 .skillprograms {
 	position: absolute;
 	display: table-cell;
@@ -783,6 +799,7 @@ html.fp-enabled,
 	position: absolute;
 	display: block;
 	max-height: 40%;
+	width: 60%;
 	width: 60%;
 	left: 50%;
 	transform: translate(-50%,30%);
