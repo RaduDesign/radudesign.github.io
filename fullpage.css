@@ -66,26 +66,55 @@ html.fp-enabled,
     z-index: 4;
     top: 35%;
     cursor: pointer;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    margin-top: -38px;
+    width: 10%;
+    height: 50%;
+    /*margin-top: -38px;*/
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    transform: translate3d(0,-50%,0);
+	transition-duration: 0.2s;
 }
 
 .fp-controlArrow.fp-prev {
-    left: 15px;
-    width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #F6F9FC transparent transparent;
+	left: 0px;
+	background-image: url("imgs/arrowleft.png");
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+	background-size: 30px 60px;
+	
+    /*left: 15px;*/
+    /*border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #F6F9FC transparent transparent;*/
 }
+
+.fp-controlArrow.fp-prev:hover {
+	background-position: 20px 50%;
+}
+
+.fp-controlArrow.fp-prev:active {
+	background-size: 20px 40px;
+}
+
 .fp-controlArrow.fp-next {
-    right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #F6F9FC;
+	right: 0px;
+	background-image: url("imgs/arrowright.png");
+	background-repeat: no-repeat;
+	background-position: calc(100% - 10px) 50%;
+	background-size: 30px 60px;
+   /*right: 15px;*/
+   /* border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #F6F9FC;*/
 }
+
+.fp-controlArrow.fp-next:hover {
+	background-position: calc(100% - 20px) 50%;
+}
+
+.fp-controlArrow.fp-next:active {
+	background-size: 20px 40px;
+}
+
+
 .fp-scrollable {
     overflow: hidden;
     position: relative;
