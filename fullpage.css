@@ -832,7 +832,7 @@ html.fp-enabled,
 .imagehousing {
 	position: relative;
 	display: block;
-	width: calc(100% - 150px);
+	width: 80%;
 	left: 50%;
 	right: 50px;
 	height: 100%;
