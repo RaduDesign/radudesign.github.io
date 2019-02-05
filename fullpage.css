@@ -63,7 +63,7 @@ html.fp-enabled,
     -khtml-user-select: none; /* webkit (konqueror) browsers */
     -ms-user-select: none; /* IE10+ */
     position: absolute;
-    z-index: 4;
+    z-index: 300;
     top: 35%;
     cursor: pointer;
     width: 10%;
@@ -732,7 +732,7 @@ html.fp-enabled,
 	height: 5%;
 	left: 10%;
 	top: 5%;
-	transform: translate(0%,-50%)
+	transform: translate(0%,-50%);
 }
 
 .textbox {
@@ -756,7 +756,6 @@ html.fp-enabled,
 	right: 10%;
 	top: 5%;
 	transform: translate(0%,-50%)
-	
 }
 
 .imagepanel {
@@ -766,7 +765,9 @@ html.fp-enabled,
 	background-color: #0C2733;
 	height: 50%;
 	top: 10%;
+	z-index: 10;
 	transform: translate(0%,0%);
+	box-shadow: 0px 5px 20px black;
 }
 
 .skillspanel {
@@ -850,29 +851,52 @@ html.fp-enabled,
 	position: absolute;
 	display: block;
 	height: 34%;
-	width: 30%;
+	/*width: 30%;*/
+	width: 26%;
 	padding: 00px;
-	background-color:white;
 	left:10%;
 	bottom:3%;
-	box-shadow: 0px 0px 50px grey;
-	overflow: hidden;
-	z-index: 10;
+	border-width: 5px;
+	border-color: #0C2733;
+	border-left-style: solid;
+	/*box-shadow: 0px 0px 50px grey;*/
+	overflow: auto;
+	z-index: 9;
 }
 
 .myresponsabilities {
 	position: absolute;
 	display: block;
 	height: 34%;
-	width: 47%;
+	/*width: 47%;*/
+	width: 52%;
 	padding: 0px;
-	background-color: white;
 	right: 10%;
 	bottom:3%;
+	border-width: 5px;
+	border-color: #0C2733;
+	border-left-style: solid;
 	transform: translate(0%,0%);
-	box-shadow: 0px 0px 50px grey;
-	overflow: hidden;
-	z-index: 10;
+	/*box-shadow: 0px 0px 50px grey;*/
+	overflow: auto;
+	z-index: 9;
+}
+
+.imagedescription {
+	position: absolute;
+	display: inline-block;
+	height: 100%;
+	/*width: 47%;*/
+	width: 32.5%;
+	padding: 0px;
+	left: 0%;
+	border-width: 5px;
+	border-color: #F6F9FC;
+	border-left-style: solid;
+	transform: translate(0%,0%);
+	/*box-shadow: 0px 0px 50px grey;*/
+	overflow: auto;
+	z-index: 9;
 }
 
 .imagehousing {
@@ -880,11 +904,23 @@ html.fp-enabled,
 	display: block;
 	width: 80%;
 	left: 50%;
-	right: 50px;
+	top: 50%;
+	height: calc(100% - 40px);
+	overflow: hidden;
+	transform: translate(-50%,-50%);
+}
+
+.imagehousing2 {
+	position: absolute;
+	display: block;
+	max-width: 65%;
+	right: 0%;
+	top: 0%;
 	height: 100%;
 	overflow: hidden;
-	transform: translate(-50%,0%);
+	transform: translate(0%,0%);
 }
+
 
 #aboutme{
 		background: -webkit-gradient(linear, top left, bottom left, from(#F6F9FC), to(#F6F9FC));
@@ -1198,9 +1234,6 @@ hskillbutton {
 	.usercentric {
 		width: 396px;
 		height: 396px;
-	}
-	.textbox {
-		top: 30%;
 	}
 }
 
