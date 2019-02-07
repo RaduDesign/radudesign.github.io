@@ -2231,6 +2231,10 @@
                         moveSlideRight();
                     }
                     break;
+					
+				/*case 27:
+					history.go.back();
+					break;*/
 
                 default:
                     return; // exit this handler for other keys
@@ -3988,6 +3992,8 @@ function closeNav() {
 	document.getElementById("myNav").style.top = "35%";*/
 } 
 
+
+//MyCode 2?
 
 
 

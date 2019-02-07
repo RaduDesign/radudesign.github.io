@@ -11,6 +11,13 @@
 
 	<link rel="stylesheet" type="text/css" href="fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="portfolio.css" />
+	
+	<!-- for FF, Chrome, Opera -->
+	<link rel="icon" type="image/png" href="imgs/RaduDesignLogo32.png" sizes="32x32">
+
+	<!-- for IE -->
+	<link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico" >
+	<link rel="shortcut icon" type="image/x-icon" href="/assets/favicons/favicon.ico"/>
 </head>
 <body>
 
@@ -64,15 +71,45 @@
 	
 	
 	
+	<!--<div id="fp-nav" class="fp-right" style="margin-top: -43.5px;">
+		<ul>
+			<li>
+				<a href="#page1" class="">
+					<span class="fp-sr-only">fullPage</span>
+					<span></span>
+				</a>
+				<div class="fp-tooltip fp-right">fullPage</div>
+			</li>
+			<li>
+				<a href="#page2" class="active"><span class="fp-sr-only">Open</span>
+					<span></span>
+				</a>
+				<div class="fp-tooltip fp-right">Open</div>
+			</li>
+			<li>
+				<a href="#page3" class=""><span class="fp-sr-only">Easy</span>
+					<span></span>
+				</a>
+				<div class="fp-tooltip fp-right">Easy</div>
+			</li>
+			<li>
+				<a href="#page4" class="">
+					<span class="fp-sr-only">Touch</span>
+					<span></span>
+				</a>
+				<div class="fp-tooltip fp-right">Touch</div>
+			</li>
+		</ul>
+	</div>-->
 	
-<div id="fullpage">
-	<div class="section" id="aboutme">
+<div id="fullpage">	
+	<div class="section" id="aboutme" data-anchor="aboutme">
 		<h1>about me</h1>
 	</div>
 	
 	
 	
-	<div class="section active" id="intro">
+	<div class="section active" id="intro" data-anchor="intro">
 		<div class="namebox" id="myname">
 			<b2>radu Teodosescu</b2>
 		</div>
@@ -85,6 +122,15 @@
 		<div class="titlebox" id="mytitle">
 			<b1>User Centric Tech Design</b1>
 		</div>
+		<a class="active" href="#page1">
+		<div class="mainpagebuttonup" id="mainpagetopbutton" onClick="moveSectionUp()">
+		</div>
+		</a>
+		<a class="active" href="#page3">
+		<div class="mainpagebuttondown" id="mainpagetopbutton">
+		</div>
+		</a>
+		
 	<!--	<div 
 			 class="sign" 
 			 id="aboutmesign"
@@ -110,7 +156,7 @@
 	</div>
 	
 	
-  <div class="section" id="tilesapart">
+  <div class="section" id="tilesapart" data-anchor="tilespart">
 	 	<div class="gametitle" id="tilesapartgametitle">
 				<gametitle>Tiles aparT</gametitle>
 		</div>
@@ -329,13 +375,16 @@
 					</div>
 					<div class="imagehousing2" id="prototupe88">
 						<img src="imgs/tilesapart/1.png"
-							 style="display: inline-block; texheight: 100%;"
+							 style="display: table-cell; height: 100%;
+									float: left;"
 							 alt="Tiles Apart 1">
 						<img src="imgs/tilesapart/1.png"
-							 style="display: inline-block; height: 100%;"
+							 style="display: table-cell; height: 100%;
+									float: left;"
 							 alt="Tiles Apart 1">
 						<img src="imgs/tilesapart/1.png"
-							 style="display: inline-block; height: 100%;"
+							 style="display: table-cell; height: 100%;
+									float: left;"
 							 alt="Tiles Apart 1">
 					
 					</div>
@@ -349,7 +398,7 @@
 		</div>		
 	</div>	
 	
-	<div class="section" id="outofspace">
+	<div class="section" id="outofspace" data-anchor="outofspace">
 			<div class="gametitle" id="outofspacegametitle">
 					<gametitle>ouT of Space</gametitle>
 			</div>
@@ -441,8 +490,12 @@
 					<div class="imagehousing2" id="prototupe88">
 						<a href="imgs/oos/oosas.png">
 						<img src="imgs/oos/oosas.png"
-							 style="display: inline-block; height: 100%;"
-							 alt="Tiles Apart 1">
+							 style="display: block;
+									position: relative;
+									top: 50%;
+									float: left;
+									transform: translateY(-50%);"
+							 alt="oosas">
 						</a>
 					</div>
 				</div>	
@@ -488,90 +541,21 @@
 		</div>
 	</div>
 	
-  <div class="section" id="skills">
+  <div class="section" id="skills" data-anchor="skills">
 	  <style>
-		  #skills .fp-controlArrow {
-   				 top: 50%;
-			     height: 80%;
-			}
+		  #skills
+		  .fp-controlArrow {
+   				top: calc(50% + 30px);
+				height: calc(100% - 100px);
+			} 
+		  #fp-nav ul li a span
+		  .fp-slidesNav ul li a span {
+				background-color: #F6F9FC;
+		  }
 	  </style>
 	  <div class="gametitle" id="skillstitle">
 				<gametitle>Skills</gametitle>
 		</div>
-<!--
-	  	<div class="details" id="placeholder1"
-			 style="z-index: 200;">
-			<a href="https://play.google.com/store/apps/details?id=com.heatstroke.tilesapart" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;					  
-			   		  margin-right: 20px;">
-				<img src="imgs/badges/google-play-badge.png"
-				  	 style="height: 100%;"
-					 alt="Tiles Apart Google Play">
-			</a>
-			<a href="https://itunes.apple.com/us/app/tiles-apart/id1444205610#?platform=iphone" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;
-			   		  margin-left: 20px;">
-				<img src="imgs/badges/App_Store_Badge.png" 
-					 style="height: 100%;" 
-					 alt="Tiles Apart Apple Store">
-			</a>
-		</div>
--->
-<!--
-		<div class="description" id="placeholder2">
-			<h3>Description</h3>
-			<div class="textbox" id="placeholder3">
-				<p2>
-					Mobile Puzzle Game
-				</p2>
-				<p1>
-					created in 8 weeks with a team of 16 people
-				</p1>
-			</div>
-			</div>
--->	  
-<!--
-	    <div class="myresponsabilities" id="placeholder4">
-			<h3>Responsabilities</h3>
-			<div class="textbox" id="placeholder5">
-				<p2>
-					&#9900 Core Puzzle Design
-				</p2>
-				<br>
-				<p2>
-					&#9900 Design Contact Point
-				</p2>
-				<p1>
-					Facilitate communication between the design team and the art and coding departments.
-				</p1>
-				<br>
-				<p2>
-					&#9900 Tabletop - Mobile Adaptation
-				</p2>
-				<br>
-				<p1>
-					Tiles Apart is based on
-				</p1>
-				<a href="https://boardgamegeek.com/boardgame/1219/labyrinth" target="_blank">
-				<p1 style="color: blue;">
-					Doolhof (Labyrinth).
-				</p1>
-				</a>
-				<br>
-				<p2>
-					&#9900 Tileset Mechanic Feature Sets
-				</p2>
-				<br>
-				<p1>
-					Determined using the methodology of Clockwork Game Design.
-				</p1>
-			</div>
-			</div>
--->
 		<div class="slide active" id="techskills">
 			<div class="skillspanel" id="placeholder7">
 				<div class="arrownameplateleft" 
@@ -869,7 +853,7 @@
 	
 	
 	
-	<div class="section" id="more">
+	<div class="section" id="more" data-anchor="more">
 		<h1>More</h1>
 	</div>
 	
@@ -879,6 +863,9 @@
 <script type="text/javascript" src="fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
+		anchors: ['page1','page2','page3','page4','page5','page6'],
+		navigation: true,
+		slidesNavigation: true,
 		onLeave: function(origin, destination, direction){},
 		onSlideLeave: function(section, origin, destination, direction){},
 		afterLoad: function(origin, destination, direction){},
