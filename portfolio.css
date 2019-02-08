@@ -72,28 +72,41 @@ h2{
 
 h3{
 	display: block;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: notosansextracondensed;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: #0C2733;
 }
 
 h3w{
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: notosansextracondensed;
 	display: block;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: #F6F9FC;
+}
+
+h3r{
+	font-size: 2em;
+	font-family: notosansextracondensed;
+	display: block;
+	font-style: normal;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #E53E30;
 }
 
 h4{
@@ -132,7 +145,7 @@ p1{
 	font-weight: 300;
 	font-style: normal;
 	color: #0A0A0A;
-	line-height: 20px;
+	line-height: 10px;
 }
 
 p1w{
@@ -142,6 +155,16 @@ p1w{
 	font-weight: 300;
 	font-style: normal;
 	color: #F6F9FC;
+	line-height: 10px;
+}
+
+p1r{
+	display: inline;
+	font-size: 0.9em;
+	font-family: notosans;
+	font-weight: 300;
+	font-style: normal;
+	color: #E53E30;
 	line-height: 20px;
 }
 
@@ -163,6 +186,17 @@ p2w{
 	font-weight: 500;
 	font-style: normal;
 	color: #F6F9FC;
+	line-height: 10px;
+	padding-top: 0px;
+}
+
+p2r{
+	display: inline-block;
+	font-size: 0.9em;
+	font-family: notosans;
+	font-weight: 500;
+	font-style: normal;
+	color: #E53E30;
 	line-height: 20px;
 	padding-top: 0px;
 }
@@ -189,13 +223,13 @@ p4{
 }
 
 b1{
-	font-size: 2.5em;
+	font-size: 3.5em;
 	font-family: majormonodisplay;
 	font-style: normal;
 	color: #e53e30;
 }
 b2{
-	font-size: 3em;
+	font-size: 4em;
 	font-family: majormonodisplay;
 	font-style: normal;
 	color: #0a0a0a;
@@ -419,17 +453,32 @@ p{
 
 
 @media only screen and (min-width: 1280px) and (max-width:1365px) and (orientation:landscape){
-	
+	b1 {
+		font-size: 3em;
+	}
+	b2 {
+		font-size: 3.5em;
+	}
 }
 
 
 @media only screen and (min-width: 1280px) and (max-width:1365px) and (orientation:portrait){
-	
+	b1 {
+		font-size: 3em;
+	}
+	b2 {
+		font-size: 3.5em;
+	}
 }
 
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) and (orientation:landscape){
-	
+	b1 {
+		font-size: 2em;
+	}
+	b2 {
+		font-size: 2.5em;
+	}
 }
 
 
