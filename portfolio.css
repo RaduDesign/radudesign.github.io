@@ -72,40 +72,40 @@ h2{
 
 h3{
 	display: block;
-	font-size: 2em;
+	font-size: 1.6vw;
 	font-family: notosansextracondensed;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1vw;
+	padding-bottom: 0vw;
 	color: #0C2733;
 }
 
 h3w{
-	font-size: 2em;
+	font-size: 1.6vw;
 	font-family: notosansextracondensed;
 	display: block;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1vw;
+	padding-bottom: 0vw;
 	color: #F6F9FC;
 }
 
 h3r{
-	font-size: 2em;
+	font-size: 1.6vw;
 	font-family: notosansextracondensed;
 	display: block;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1vw;
+	padding-bottom: 0vw;
 	color: #E53E30;
 }
 
@@ -140,65 +140,65 @@ h6{
 
 p1{
 	display: inline;
-	font-size: 0.9em;
+	font-size: 0.72vw;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
 	color: #0A0A0A;
-	line-height: 10px;
+	line-height: normal;
 }
 
 p1w{
 	display: inline;
-	font-size: 0.9em;
+	font-size: 0.72vw;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
 	color: #F6F9FC;
-	line-height: 10px;
+	line-height: normal;
 }
 
 p1r{
 	display: inline;
-	font-size: 0.9em;
+	font-size: 0.72vw;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
 	color: #E53E30;
-	line-height: 20px;
+	line-height: normal;
 }
 
 p2{
 	display: inline-block;
-	font-size: 0.9em;
+	font-size: 0.72vw;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
 	color: #0A0A0A;
-	line-height: 20px;
-	padding-top: 0px;
+	line-height: normal;
+	padding-top: 0.5vw;
 }
 
 p2w{
 	display: inline-block;
-	font-size: 0.9em;
+	font-size: 0.72vw;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
 	color: #F6F9FC;
-	line-height: 10px;
-	padding-top: 0px;
+	line-height: normal;
+	padding-top: 0.5vw;
 }
 
 p2r{
 	display: inline-block;
-	font-size: 0.9em;
+	font-size: 0.72vw;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
 	color: #E53E30;
-	line-height: 20px;
-	padding-top: 0px;
+	line-height: normal;
+	padding-top: 0.5vw;
 }
 
 p3{
