@@ -135,11 +135,14 @@ html.fp-enabled,
     position: fixed;
     z-index: 1000;
     margin-top: -32px;
-	left: calc(100% - 88px);
-	bottom: calc(calc(50% - 25% + 10px + 30px) / 2);
+	left: calc(50% - 14px);
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 50px + 50px + 80px);
     opacity: 1;
-	width: 50;
-    -webkit-transform: translate3d(0,50%,0);
+	width: 0px;
+	background-color: aqua;
+    -webkit-transform: translate3d(0%,50%,0);
+    -ms-transform: translate3d(0,50%,0);
+    transform: translate3d(0,50%,0);
 }
 #fp-nav.fp-right {
     right: 17px;
@@ -154,11 +157,11 @@ html.fp-enabled,
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    transform: translate3d(0%,0,0);
     left: 0 !important;
     right: 0;
     margin: 0 auto !important;
-	top: 27px;
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 80px + 18px);
 	height: 0px;
 	
 }
@@ -180,6 +183,7 @@ html.fp-enabled,
     height: 13px;
     margin: 7px;
     position:relative;
+	
 }
 .fp-slidesNav ul li {
     display: inline-block;
@@ -202,6 +206,7 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+	box-shadow: 0px 0px 0px 2px #F6F9FC;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -219,6 +224,7 @@ html.fp-enabled,
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+	box-shadow: 0px 0px 0px 1.5px #F6F9FC;
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
@@ -704,6 +710,16 @@ html.fp-enabled,
 	left: 50%;
 }
 
+.rarnamebox {
+	position: absolute;
+	display: block;
+	width: auto;
+	height: auto;
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 80px + 31px);
+	transform: translate(-50%,50%);
+	left: 50%;
+}
+
 .titlebox {
 	position: absolute;
 	display: block;
@@ -747,14 +763,42 @@ html.fp-enabled,
 .textbox {
 	position: relative;
 	display: inline-block;
-	width: calc(100% - 60px);
+	width: auto;
 	height: auto;
 	left: 0%;
 	text-align: left;
+	float: left;
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+.rartextboxleft {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	text-align: left;
+	float: left;
+}
+
+.rartextboxright {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	text-align: right;
+	float: right;
+}
+
+.rar{
+	position: absolute;
+	display: block;
+	width: calc(calc(100% - 110px - 110px - 10px - 10px - 50px) / 2);
+	height: calc(calc(100% - 80px - 50px - 50px - 20px) / 3);
+	bottom: 20px;
+	z-index: 9;
 }
 
 .details {
@@ -771,7 +815,7 @@ html.fp-enabled,
 	display: block;
 	width: 100%;
 	background-color: #0C2733;
-	height: calc(calc(100% - 80px - 20px - 20px) / 5 * 3);
+	height: calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2);
 	top: 80px;
 	z-index: 10;
 	transform: translate(0%,0%);
@@ -779,12 +823,12 @@ html.fp-enabled,
 }
 
 .skillspanel {
-	position: relative;
+	position: absolute;
 	display: block;
 	width: 100%;
 	background-color: #0C2733;
-	height: calc(100% - 100px);
-	top: 30px;
+	height: calc(100% - 80px - 50px);
+	top: 80px;
 	transform: translate(0%,0%);
 	box-shadow: 0px 5px 20px black;
 }
@@ -874,6 +918,23 @@ html.fp-enabled,
 	border-left-style: solid;
 	/*box-shadow: 0px 0px 50px grey;*/
 	overflow: hidden;
+	z-index: 9;
+}
+
+.roleandresp {
+	position: absolute;
+	display: block;
+	/*width: 30%;*/
+	/*width: 26%;*/
+	height: calc(calc(100% - 80px - 20px - 20px) / 5 * 2);
+	width: calc(100% - 220px);
+	left: 110px;
+	bottom: 20px;
+	border-width: 5px;
+	border-color: #0C2733;
+	border-left-style: solid;
+	/*box-shadow: 0px 0px 50px grey;*/
+	overflow: auto;
 	z-index: 9;
 }
 

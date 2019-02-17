@@ -72,7 +72,7 @@ h2{
 
 h3{
 	display: block;
-	font-size: 1.6vw;
+	font-size: 1.6em;
 	font-family: notosansextracondensed;
 	font-style: normal;
 	text-align: left;
@@ -80,6 +80,14 @@ h3{
 	padding-right: 30px;
 	padding-top: 1vw;
 	padding-bottom: 0vw;
+	color: #0C2733;
+}
+
+h3rar{
+	display: block;
+	font-size: 1.6em;
+	font-family: notosansextracondensed;
+	font-style: normal;
 	color: #0C2733;
 }
 
@@ -140,7 +148,7 @@ h6{
 
 p1{
 	display: inline;
-	font-size: 0.72vw;
+	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
@@ -150,7 +158,7 @@ p1{
 
 p1w{
 	display: inline;
-	font-size: 0.72vw;
+	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
@@ -160,7 +168,7 @@ p1w{
 
 p1r{
 	display: inline;
-	font-size: 0.72vw;
+	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 300;
 	font-style: normal;
@@ -170,35 +178,35 @@ p1r{
 
 p2{
 	display: inline-block;
-	font-size: 0.72vw;
+	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
 	color: #0A0A0A;
 	line-height: normal;
-	padding-top: 0.5vw;
+	padding-top: 1em;
 }
 
 p2w{
 	display: inline-block;
-	font-size: 0.72vw;
+	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
 	color: #F6F9FC;
 	line-height: normal;
-	padding-top: 0.5vw;
+	padding-top: 1em;
 }
 
 p2r{
 	display: inline-block;
-	font-size: 0.72vw;
+	font-size: 0.9em;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
 	color: #E53E30;
 	line-height: normal;
-	padding-top: 0.5vw;
+	padding-top: 1em;
 }
 
 p3{
@@ -245,10 +253,17 @@ gametitle{
 }
 
 b3{
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: majormonodisplay;
 	font-style: normal;
 	color: black;
+}
+
+b4{
+	font-size: 1.5em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #0A0A0A;
 }
 p{
 	font-size: 2em;
