@@ -78,8 +78,6 @@ h3{
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 1vw;
-	padding-bottom: 0vw;
 	color: #0C2733;
 }
 
@@ -92,28 +90,24 @@ h3rar{
 }
 
 h3w{
-	font-size: 1.6vw;
+	font-size: 1.6em;
 	font-family: notosansextracondensed;
 	display: block;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 1vw;
-	padding-bottom: 0vw;
 	color: #F6F9FC;
 }
 
 h3r{
-	font-size: 1.6vw;
+	font-size: 1.6em;
 	font-family: notosansextracondensed;
 	display: block;
 	font-style: normal;
 	text-align: left;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 1vw;
-	padding-bottom: 0vw;
 	color: #E53E30;
 }
 
@@ -178,7 +172,7 @@ p1r{
 
 p2{
 	display: inline-block;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
@@ -189,7 +183,7 @@ p2{
 
 p2w{
 	display: inline-block;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
@@ -200,7 +194,7 @@ p2w{
 
 p2r{
 	display: inline-block;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-family: notosans;
 	font-weight: 500;
 	font-style: normal;
@@ -236,11 +230,28 @@ b1{
 	font-style: normal;
 	color: #e53e30;
 }
+
+b1s{
+	font-size: 3.5em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #e53e30;
+	text-shadow: 5px 5px #E53E30;
+}
+
 b2{
 	font-size: 4em;
 	font-family: majormonodisplay;
 	font-style: normal;
 	color: #0a0a0a;
+}
+
+b2s{
+	font-size: 4em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #0a0a0a;
+	text-shadow: 6px 6px #E53E30;
 }
 
 gametitle{
@@ -256,7 +267,15 @@ b3{
 	font-size: 2em;
 	font-family: majormonodisplay;
 	font-style: normal;
-	color: black;
+	color: #0A0A0A;
+}
+
+b3s{
+	font-size: 2em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #0A0A0A;
+	text-shadow: 3px 3px #E53E30;
 }
 
 b4{
@@ -265,6 +284,25 @@ b4{
 	font-style: normal;
 	color: #0A0A0A;
 }
+
+b4r{
+	font-size: 1.5em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #E53E30;
+	padding: 20px;
+	line-height: 40px;
+}
+
+b4rs{
+	font-size: 1.5em;
+	font-family: majormonodisplay;
+	font-style: normal;
+	color: #E53E30;
+	text-shadow: 2px 2px #0A0A0A;
+	padding: 10px;
+}
+
 p{
 	font-size: 2em;
 }
