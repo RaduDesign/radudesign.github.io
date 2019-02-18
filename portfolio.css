@@ -106,18 +106,22 @@ h3r{
 	display: block;
 	font-style: normal;
 	text-align: left;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	color: #E53E30;
 }
 
 h4{
-	font-size: 1em;
+	font-size: 1.4em;
 	font-family: majormonodisplay;
 	font-style: normal;
 	color: #F6F9FC;
 	vertical-align: middle;
 	text-align: center;
+	background-color: #0C2733;
+	padding: 5px;
 }
 
 h5{
