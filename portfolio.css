@@ -133,6 +133,24 @@ h5{
 	text-align: left;
 }
 
+h5r{
+	font-size: 0.9em;
+	font-family: notosansextracondensed;
+	font-style: normal;
+	color: #0C2733;
+	vertical-align: middle;
+	text-align:center;
+}
+
+h5l{
+	font-size: 0.9em;
+	font-family: notosansextracondensed;
+	font-style: normal;
+	color: #0C2733;
+	vertical-align: middle;
+	text-align:center;
+}
+
 h6{
 	font-size: 1.5em;
 	font-family: notosansextracondensed;

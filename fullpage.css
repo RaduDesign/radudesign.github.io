@@ -936,6 +936,28 @@ html.fp-enabled,
 	color: #F6F9FC; 
 }
 
+.arrownameplatebottomleft{
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	left: 0px;
+	z-index: 11;
+	transform: translate(0%,0%);
+	border-width: 2px;
+	border-color: #E53E30;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	transition-duration: 0.5s;
+}
+
+.arrownameplatebottomleft:hover{
+	background-color: #E53E30; 
+}
+
+.arrownameplatebottomleft h3r:hover{
+	color: #F6F9FC; 
+}
+
 .arrownameplateright{
 	position: absolute;
 	display: block;
@@ -955,6 +977,28 @@ html.fp-enabled,
 }
 
 .arrownameplateright h3r:hover{
+	color: #F6F9FC; 
+}
+
+.arrownameplatebottomright{
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 0px;
+	z-index: 11;
+	transform: translate(0%,0%);
+	border-width: 2px;
+	border-color: #E53E30;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	transition-duration: 0.5s;
+}
+
+.arrownameplatebottomright:hover{
+	background-color: #E53E30; 
+}
+
+.arrownameplatebottomright h3r:hover{
 	color: #F6F9FC; 
 }
 
@@ -984,11 +1028,12 @@ html.fp-enabled,
 
 .imgp {
 	display: inline-block;
-	width: 48px;
-	height: 48px;
-	margin: 5px;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
 	background-color: #E53E30;
 	border-radius: 6px;
+	text-align: center;
 }
 
 .description {
