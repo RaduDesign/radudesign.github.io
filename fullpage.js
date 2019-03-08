@@ -132,7 +132,7 @@
 
             //scrolling
             css3: true,
-            scrollingSpeed: 300,
+            scrollingSpeed: 600,
             autoScrolling: true,
             fitToSection: true,
             fitToSectionDelay: 1000,
@@ -154,7 +154,7 @@
             scrollOverflowReset: false,
             scrollOverflowHandler: window.fp_scrolloverflow ? window.fp_scrolloverflow.iscrollHandler : null,
             scrollOverflowOptions: null,
-            touchSensitivity: 15,
+            touchSensitivity: 10,
             normalScrollElementTouchThreshold: 5,
             bigSectionsDestination: null,
 
