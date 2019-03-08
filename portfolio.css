@@ -285,6 +285,17 @@ gametitle{
 	vertical-align: middle;
 }
 
+gametitle2{
+	font-size: 2.5em;
+	font-family: majormonodisplay;
+	color: #F6F9FC;
+	display: block;
+	font-style: normal;
+	text-align: left;
+	padding-left: 27px;
+	padding-right: 30px;
+}
+
 b3{
 	font-size: 2em;
 	font-family: majormonodisplay;
