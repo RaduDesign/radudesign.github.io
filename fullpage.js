@@ -154,7 +154,7 @@
             scrollOverflowReset: false,
             scrollOverflowHandler: window.fp_scrolloverflow ? window.fp_scrolloverflow.iscrollHandler : null,
             scrollOverflowOptions: null,
-            touchSensitivity: 5,
+            touchSensitivity: 15,
             normalScrollElementTouchThreshold: 5,
             bigSectionsDestination: null,
 
