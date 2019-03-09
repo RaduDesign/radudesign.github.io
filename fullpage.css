@@ -138,14 +138,13 @@ html.fp-enabled,
     z-index: 50;
     margin-top: -32px;
 	left: calc(50% - 14px);
-	/*top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 50px + 70px + 87px);*/
-	bottom: 16%;
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 110px + 10px + 150px);
     opacity: 1;
 	width: 0px;
 	background-color: aqua;
-    -webkit-transform: translate3d(0%,50%,0);
-    -ms-transform: translate3d(0,50%,0);
-    transform: translate3d(0,50%,0);
+    -webkit-transform: translate3d(0%,0%,0);
+    -ms-transform: translate3d(0,0%,0);
+    transform: translate3d(0,0%,0);
 }
 #fp-nav.fp-right {
     right: 17px;
@@ -164,7 +163,7 @@ html.fp-enabled,
     left: 0 !important;
     right: 0;
     margin: 0 auto !important;
-	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 90px + 19px);
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 90px + 10px);
 	height: 0px;
 	width: 150px;
 	
@@ -720,7 +719,7 @@ html.fp-enabled,
 	display: block;
 	width: 100%;
 	height: auto;
-	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 110px + 30px);
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 110px + 10px);
 	transform: translate(-50%,50%);
 	left: 50%;
 }
@@ -730,7 +729,7 @@ html.fp-enabled,
 	display: block;
 	width: 100%;
 	height: auto;
-	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 120px);
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 100px);
 	transform: translate(-50%,50%);
 	left: 50%;
 }
@@ -810,7 +809,7 @@ html.fp-enabled,
 	position: absolute;
 	display: block;
 	width: calc(calc(100% - 110px - 90px - 10px - 10px - 65px) / 2);
-	height: calc(calc(100% - 80px - 120px - 90px - 150px) / 3);
+	height: calc(calc(100% - 80px - 40px - 90px - 150px) / 3);
 	bottom: 60px;
 	z-index: 9;
 	overflow: hidden;
@@ -932,7 +931,7 @@ html.fp-enabled,
 .arrownameplateleft{
 	position: absolute;
 	display: block;
-	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 80px + 26px);
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 80px + 16px);
 	right: calc(50% + 90px);
 	z-index: 11;
 	transform: translate(0%,0%);
@@ -991,7 +990,7 @@ html.fp-enabled,
 .arrownameplateright{
 	position: absolute;
 	display: block;
-	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 80px + 26px);
+	top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 80px + 16px);
 	left: calc(50% + 90px);
 	z-index: 11;
 	transform: translate(0%,0%);
