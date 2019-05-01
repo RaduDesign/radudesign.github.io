@@ -1600,7 +1600,7 @@ hskillbutton {
 	}
 }
 
-@media only screen and (min-height: 0px) and (max-height:764px) and (orientation:landscape){
+@media only screen and (min-height: 0px) and (max-height:704px) and (orientation:landscape){
 	.redblock {
 		display: block;
 	}
