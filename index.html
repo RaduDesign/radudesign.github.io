@@ -1,1854 +1,1324 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>RaduDesign</title>
-	<meta name="author" content="Radu Teodosescu" />
-	<meta name="description" content="myportfolio" />
-	<meta name="keywords"  content="portfolio,fullpage" />
-	<meta name="Resource-type" content="Document" />
-
-	<link rel="stylesheet" type="text/css" href="fullpage.css" />
-	<link rel="stylesheet" type="text/css" href="portfolio.css" />
-	
-	<!-- for FF, Chrome, Opera -->
-	<link rel="icon" type="image/png" href="imgs/RaduDesignLogo32.png" sizes="32x32">
-
-	<!-- for IE -->
-	<link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico" >
-	<link rel="shortcut icon" type="image/x-icon" href="/assets/favicons/favicon.ico"/>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet"> 
-</head>
-<body>
-	
-
-
-<!--<select id="demosMenu">
-  <option selected>Choose Demo</option>
-  <option id="active-slide">Active section and slide</option>
-  <option id="auto-height">Auto height</option>
-  <option id="autoplay-video-and-audio">Autoplay Video and Audio</option>
-  <option id="backgrounds">Background images</option>
-  <option id="backgrounds-fixed">Fixed fullscreen backgrounds</option>
-  <option id="background-video">Background video</option>
-  <option id="callbacks">Callbacks</option>
-  <option id="continuous-horizontal">Continuous horizontal</option>
-  <option id="continuous-vertical">Continuous vertical</option>
-  <option id="parallax">Parallax</option>
-  <option id="css3">CSS3</option>
-  <option id="drag-and-move">Drag And Move</option>
-  <option id="easing">Easing</option>
-  <option id="fading-effect">Fading Effect</option>
-  <option id="fixed-headers">Fixed headers</option>
-  <option id="gradient-backgrounds">Gradient backgrounds</option>
-  <option id="interlocked-slides">Interlocked Slides</option>
-  <option id="looping">Looping</option>
-  <option id="methods">Methods</option>
-  <option id="navigation-vertical">Vertical navigation dots</option>
-  <option id="navigation-horizontal">Horizontal navigation dots</option>
-  <option id="no-anchor">No anchor links</option>
-  <option id="normal-scroll">Normal scrolling</option>
-  <option id="normalScrollElements">Normal scroll elements</option>
-  <option id="offset-sections">Offset sections</option>
-  <option id="one-section">One single section</option>
-  <option id="reset-sliders">Reset sliders</option>
-  <option id="responsive-auto-height">Responsive Auto Height</option>
-  <option id="responsive-height">Responsive Height</option>
-  <option id="responsive-width">Responsive Width</option>
-  <option id="responsive-slides">Responsive Slides</option>
-  <option id="scrollBar">Scroll bar enabled</option>
-  <option id="scroll-horizontally">Scroll horizontally</option>
-  <option id="scrollOverflow">Scroll inside sections and slides</option>
-  <option id="scrollOverflow-reset">ScrollOverflow Reset</option>
-  <option id="lazy-load">Lazy load</option>
-  <option id="scrolling-speed">Scrolling speed</option>
+  <head>
+    <title>Radu Design</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Radu Teodosescu" />
+    <meta name="description" content="User Centric Game Design" />
+    <meta name="keywords" content="portfolio,fullpage" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="portfolio.css" />
+    <!-- for FF, Chrome, Opera -->
+    <link rel="icon" type="image/png" href="imgs/RaduDesignLogo32.png" sizes="32x32" />
+    <!-- for IE -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicons/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet" />
+  </head>
+  <body>
+    <!--<select id="demosMenu">
+  <option selected>Choose Demo</option>  <option id="active-slide">Active section and slide</option>
+  <option id="auto-height">Auto height</option>  <option id="autoplay-video-and-audio">Autoplay Video and Audio</option>
+  <option id="backgrounds">Background images</option>  <option id="backgrounds-fixed">Fixed fullscreen backgrounds</option>
+  <option id="background-video">Background video</option>  <option id="callbacks">Callbacks</option>
+  <option id="continuous-horizontal">Continuous horizontal</option>  <option id="continuous-vertical">Continuous vertical</option>
+  <option id="parallax">Parallax</option>  <option id="css3">CSS3</option>
+  <option id="drag-and-move">Drag And Move</option>  <option id="easing">Easing</option>
+  <option id="fading-effect">Fading Effect</option>  <option id="fixed-headers">Fixed headers</option>
+  <option id="gradient-backgrounds">Gradient backgrounds</option>  <option id="interlocked-slides">Interlocked Slides</option>
+  <option id="looping">Looping</option>  <option id="methods">Methods</option>
+  <option id="navigation-vertical">Vertical navigation dots</option>  <option id="navigation-horizontal">Horizontal navigation dots</option>
+  <option id="no-anchor">No anchor links</option>  <option id="normal-scroll">Normal scrolling</option>
+  <option id="normalScrollElements">Normal scroll elements</option>  <option id="offset-sections">Offset sections</option>
+  <option id="one-section">One single section</option>  <option id="reset-sliders">Reset sliders</option>
+  <option id="responsive-auto-height">Responsive Auto Height</option>  <option id="responsive-height">Responsive Height</option>
+  <option id="responsive-width">Responsive Width</option>  <option id="responsive-slides">Responsive Slides</option>
+  <option id="scrollBar">Scroll bar enabled</option>  <option id="scroll-horizontally">Scroll horizontally</option>
+  <option id="scrollOverflow">Scroll inside sections and slides</option>  <option id="scrollOverflow-reset">ScrollOverflow Reset</option>
+  <option id="lazy-load">Lazy load</option>  <option id="scrolling-speed">Scrolling speed</option>
 </select>-->
-
-	
-<!--   <div class="slide "><h1>Simple Demo</h1></div>
-	    <div class="slide active"><h1>Only text</h1></div>
-	    <div class="slide"><h1>And text</h1></div>
+    <!--   <div class="slide "><h1>Simple Demo</h1></div>
+	    <div class="slide active"><h1>Only text</h1></div>	    <div class="slide"><h1>And text</h1></div>
 	    <div class="slide"><h1>And more text</h1></div>-->
-	
-	
-	
-	
-	<!--<div id="fp-nav" class="fp-right" style="margin-top: -43.5px;">
-		<ul>
-			<li>
-				<a href="#page1" class="">
-					<span class="fp-sr-only">fullPage</span>
-					<span></span>
-				</a>
-				<div class="fp-tooltip fp-right">fullPage</div>
-			</li>
-			<li>
-				<a href="#page2" class="active"><span class="fp-sr-only">Open</span>
-					<span></span>
-				</a>
-				<div class="fp-tooltip fp-right">Open</div>
-			</li>
-			<li>
-				<a href="#page3" class=""><span class="fp-sr-only">Easy</span>
-					<span></span>
-				</a>
-				<div class="fp-tooltip fp-right">Easy</div>
-			</li>
-			<li>
-				<a href="#page4" class="">
-					<span class="fp-sr-only">Touch</span>
-					<span></span>
-				</a>
-				<div class="fp-tooltip fp-right">Touch</div>
-			</li>
-		</ul>
+    <!--<div id="fp-nav" class="fp-right" style="margin-top: -43.5px;">
+		<ul>			<li>
+				<a href="#page1" class="">					<span class="fp-sr-only">fullPage</span>
+					<span></span>				</a>
+				<div class="fp-tooltip fp-right">fullPage</div>			</li>
+			<li>				<a href="#page2" class="active"><span class="fp-sr-only">Open</span>
+					<span></span>				</a>
+				<div class="fp-tooltip fp-right">Open</div>			</li>
+			<li>				<a href="#page3" class=""><span class="fp-sr-only">Easy</span>
+					<span></span>				</a>
+				<div class="fp-tooltip fp-right">Easy</div>			</li>
+			<li>				<a href="#page4" class="">
+					<span class="fp-sr-only">Touch</span>					<span></span>
+				</a>				<div class="fp-tooltip fp-right">Touch</div>
+			</li>		</ul>
 	</div>-->
-	
-	
-	
-	
-<div id="fullpage">	
-<!--	<div class="section" id="aboutme" data-anchor="aboutme">
-		<h1>about me</h1>
-	</div>-->
-	
-	<div class="redblock" id="highlightblackblock" style="background-color: #E53E30; position: absolute; z-index: 9999;">
-		<img src="imgs/monitor.png"
-			 style="display: block;
-					position: absolute;
-					width: 200px;
-					height: 200px;
-					left: 50%;
-					top: 100px;
-					transform: translateX(-50%);"
-			 alt="radudesignoutoforder">
-		<h3w style="position: absolute;
-					top: 310px;
-					left: 50%;
-					transform: translateX(-50%);">
-			Your Resolution is NOT Supported! Continue at your peril.</h3w>
-	</div>
-	
-	<div class="section active" id="intro" data-anchor="intro">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page2">
-				 <h3r>SCROLL</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>CONTACT</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 80px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-			<b1>User centric</b1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 80px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-			<b1>game desigN</b1>		
-			</div>
-		</div>
-		<div class="namebox" id="myname"
-			 style="left: 50%;">
-			<b2>radu teodosescu</b2>
-		</div>
-		<div class="usercentric" id="usercentric">
-			<img data-src="imgs/RaduDesignLogoAnimatedAlpha.gif"
-				 style="position: absolute; 
-						transform: translate(-50%,-50%); 
-						top: 50%; 
-						left: 50%;
-						border-width: 50px;
-						border-style: solid;
-						border-color: #F6F9FC;
-						border-radius: 50%;">
-		</div>
-		<!--<div class="titlebox" id="mytitle"
-			 style="right: calc(50% + 100px);
-					transform: translate(0%,50%);">
-			<b1>User Centric</b1>
-		</div>
-		<div class="titlebox" id="mytitle"
-			 style="left: calc(50% + 100px);
-					transform: translate(0%,50%);">
-			<b1>Tech Design</b1>
-		</div>-->
-		<!--<a class="active" href="#page1">
-		<div class="mainpagebuttonup" id="mainpagetopbutton" onClick="moveSectionUp()">
-		</div>
-		</a>-->
-		<!--<a class="active" href="#page2">
-		<div class="mainpagebuttondown" id="mainpagetopbutton" style="width: calc(100% - 300px); left:50%; transform: translateX(-50%);">
-		</div>
-		</a>-->
-	</div>
-	
-	<div class="section" id="highlightreel" data-anchor="highlightreel">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page3">
-				 <h3r>PROJECTS</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>CONTACT</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="gametitle" id="outofspacegametitle">
-				<gametitle>2014 - present</gametitle>
-		</div>
-		<!--<div class="details" id="tilesapartdetails"
-			 style="z-index: 200;">
-			<a href="http://www.doubledoorgame.com/" 
-		   target="_blank"
-		   style="display: inline-block; 
-				  height: 100%;">
-				<div class="detailsbox" id="mbdownload">
-						<b4r>deV log</b4r>
-				</div>
-			</a>
-		</div>-->
-		<div class="rarnamebox2" id="rarnamebox1" style="top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 60px);">
-			<b3>What is</b3>
-			<br>
-			<b3 style="color: #E53E30">User centric tech desigN</b3>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>User Centric</h3rar>
-				<p2r style="padding-top: 3px;">Principle</p2r>
-				<br>
-				<p1>Using the lens of player experience to guide your decisions during development is the first step in creating something of actual value, both on the market and culturally.</p1>
-				<br>
-				<p2r>In Practice</p2r>
-				<br>
-				<p1>A good understanding of your audience, riguous testing and the use of metrics is central to my work.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<h3rar>Tech Design</h3rar>
-				<p2r style="padding-top: 3px;">The Craft</p2r>
-				<br>
-				<p1>How you go about implementing your ideas and what tools you use can be the most important part of the process.</p1>	
-				<br>
-				<p2r>Self Reliance</p2r>
-				<br>
-				<p1>Being involved at the ground level means spotting problems early and having the ability to solve them independently.</p1>	
-			</div>
-		</div>
-		<div class="slide active" id="highlightreelslide">
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>Summary</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>
-								Developing games for 5 years, both independently & in teams of 20+ developers.
-							</p1w>
-							<br>
-							<p2r>Current Position</p2r>
-							<br>
-							<p1w>Studying at</p1w>
-							<a target="_blank" href="https://www.buas.nl/en/programmes/creative-media-and-game-technologies">
-							<div class="linkbox" id="buas">
-							<p1w>BUas</p1w></div>
-							</a>
-							<p1w>(former NHTV)</p1w>
-							<br>
-							<p2r>Released</p2r>
-							<br>
-							<p1w>Tiles Apart</p1w>
-							<a target="_blank" href="https://play.google.com/store/apps/details?id=com.heatstroke.tilesapart">
-							<div class="linkbox" id="buas">
-							<p1w>Google Play</p1w></div>
-							</a>
-							<a target="_blank" href="https://itunes.apple.com/us/app/tiles-apart/id1444205610#?platform=iphone">
-							<div class="linkbox" id="buas">
-							<p1w>App Store</p1w></div>
-							</a>
-							<br>
-							<br>
-							<p1w>Nice Try, Plane!</p1w>
-							<a target="_blank" href="https://droodlsaurus.itch.io/nice-try-plane">
-							<div class="linkbox" id="buas">
-							<p1w>Itch.IO</p1w></div>
-							</a>
-							<br>
-							<p2r>Releasing 2019</p2r>
-							<br>
-							<p1w>Captain Starshot (Steam)</p1w>
-							<br>
-							<p2r>Why Games?</p2r>
-							<br>
-							<p1w>As one of the newest art forms, they have the potential to be a driving force for culture and I want to be at the forefront of that.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="oosgameplayvideo" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/HighlightReel.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<!--<div class="lessblackblock" id="cinematicbox">
-		</div>
-		<div class="blackblock" id="highlightblackblock">
-			<video id="oosgameplayvideo" 
-					   loop muted data-autoplay controls allowfullscreen autoplay
-					   style="max-width: 100%; 
-							  height: 100%;">
-					<source src="videos/HighlightReel.mp4" type="video/mp4">
-			</video>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<b3w>developing games for 5 years and studying at buas (former nhtv)</b3w>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;
-					vertical-align: middle;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<b3w>projects released on the app store, google play and itch.io</b3w>
-			</div>
-		</div>
-		<div class="slide active" id="highlightreelslide">
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-				</div>
-			</div>	
-		</div>-->
-	</div>
-	
-	<div class="section" id="outofspace" data-anchor="outofspace">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page4">
-				 <h3r>NEXT PROJECT</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>Contact</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="gametitle" id="outofspacegametitle">
-				<gametitle>2018</gametitle>
-		</div>
-		<div class="details" id="tilesapartdetails"
-			 style="z-index: 200;">
-			<a href="http://www.doubledoorgame.com/" 
-		   target="_blank"
-		   style="display: inline-block; 
-				  height: 100%;">
-				<div class="detailsbox" id="mbdownload">
-						<b4r>deV log</b4r>
-				</div>
-			</a>
-		</div>
-		<div class="rarnamebox" id="rarnamebox1">
-			<b3>role(S) & responsibilities</b3>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Tech Designer</h3rar>
-				<p2r style="padding-top: 3px;">Modular Ability Tool</p2r>
-				<br>
-				<p1>An expandable tool that can create complex interactions from simply editing a data structure.</p1>
-				<br>
-				<p2r>Blueprint Systems Design</p2r>
-				<br>
-				<p1>Designing or refactoring the system for dealing damage, handling rooms, boarding ships, and space movement.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<h3rar>Level Designer</h3rar>
-				<p2r style="padding-top: 3px;">Procedural Levels</p2r>
-				<br>
-				<p1>Creating rules for the procedural generation of levels using our proprietary graph grammers tool.</p1>
-				<a target="_blank" href="https://www.doubledoorgame.com/2018/12/14/development-log-2-pcg-magic/">
-				<div class="linkbox" id="universe" style="display: inline-block;">
-				<p1>Universe Tool</p1></div>
-				</a>
-				<br>
-				<p2r>Outsourcing Contact Point</p2r>
-				<br>
-				<p1>Working as a bridge between</p1>	
-				<a target="_blank" href="http://wellcooked.audio/">
-				<div class="linkbox" id="wellcooked" style="display: inline-block;">
-				<p1>Wellcooked Audio</p1></div>
-				</a>	
-				<p1>and our team to deliver the music and sound design.</p1>	
-			</div>
-		</div>
-		<div class="slide active" id="oosgameplay">
-			<!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page3/3">
-					 <h3r>1 / 4</h3r>
-			</a>-->
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page3/1">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>Captain Starshot</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>Pilot your ship and fight aliens on foot with the help of your trusty squad, in order to save humanity from a gruesome fate!</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>In Production, to be released April 12th 2019.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Top-Down Shooter Roguelite.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>22 Developers & 9 Outsourcing over 8 Months.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Engine 4.21, HOUDINI,</p1w>
-							<a target="_blank" href="https://www.doubledoorgame.com/2018/12/14/development-log-2-pcg-magic/">
-							<div class="linkbox" id="universe">
-							<p1w>Universe Tool</p1w></div>
-							</a>
-							<p1w>.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="oosgameplayvideo" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/OOS Gameplay.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="oosmodularabilitysystem">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page3">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page3/2">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Modular Ability Tool</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Purpose</p2r>
-							<br>
-							<p1w>Designed to eliminate the need for hardcoding abilities and expand our range of possibilities we have to offer to the player.</p1w>
-							<br>
-							<p2r>UX</p2r>
-							<br>
-							<p1w>Conditions & Actions are the building blocks of this system.</p1w>
-							<p1w>They determine the use case of an ability and guide player decision making.</p1w>
-							<p1w>Mix and match in a data structure to achieve different results.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/oos/oosas.png">
-						<img data-src="imgs/oos/oosas.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="oosas">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="oosblueprintsystemsdesign">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page3/1">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page3/3">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Blueprint Systems Design</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Custom Damage System</p2r>
-							<br>
-							<p1w>Built to be integrated into the modular ability tool, be expandable and accommodate status effects.</p1w>
-							<br>
-							<p2r>Rooms</p2r>
-							<br>
-							<p1w>Gameplay layer logic for rooms as well as the positioning, opening, and locking of doors.</p1w>
-							<br>
-							<p2r>Boarding Ships</p2r>
-							<br>
-							<p1w>The logic behind spawning and despawning different player characters alongside a smooth transition from your ship to your on foot player character.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/oos/OOS_Blueprint.png">
-						<img data-src="imgs/oos/OOS_Blueprint.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="oosblu">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="ooslessonslearned">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page3/2">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page3">
-					 <h3r>RESTART</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Lessons Learned</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>It's Never Too Late To Future Proof</p2r>
-							<br>
-							<p1w>On a long project, it is even more important to properly structure your code, as you will be doing yourself a favor in the long run. A great amount of time has been spent solely refactoring while developing Captain Starshot.</p1w>
-							<br>
-							<p2r>Be Open To Lateral Learning</p2r>
-							<br>
-							<p1w>I've had multiple tasks outside of my comfort zone that have prompted me to learn new skills such as working with in-house tools, web development and code reviews.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/oos/OS_LessonsLearned.png">
-						<img data-src="imgs/oos/OS_LessonsLearned.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="oosll">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>	
-	
-	<div class="section" id="tilesapart" data-anchor="tilesapart">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page5">
-				 <h3r>NEXT PROJECT</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>CONTACT</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="gametitle" id="tilesaparttitle">
-				<gametitle>2018</gametitle>
-		</div>
-		<div class="details" id="tilesapartdetails"
-			 style="z-index: 200;">
-			<a href="https://play.google.com/store/apps/details?id=com.heatstroke.tilesapart" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;					  
-					  margin-right: 20px;">
-				<div class="detailsbox" id="mbdownload">
-						<b4r>google plAy</b4r>
-				</div>
-			</a>
-			<a href="https://itunes.apple.com/us/app/tiles-apart/id1444205610#?platform=iphone" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;
-					  margin-left: 20px;				  
-					  margin-right: 20px;">
-				<div class="detailsbox" id="mbdownload">
-						<b4r>App store</b4r>
-				</div>
-			</a>
-			<a href="https://heatstroke.itch.io/tilesapart" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;
-					  margin-left: 20px;">
-				<div class="detailsbox" id="mbdownload">
-						<b4r>itch.IO</b4r>
-				</div>
-			</a>
-		</div>
-		<div class="rarnamebox" id="rarnamebox1">
-			<b3>role(S) & responsibilities</b3>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Systems Designer</h3rar>
-				<p2r style="padding-top: 3px;">Core Puzzle Design</p2r>
-				<br>
-				<p1>Creating simple but expandable core gameplay.</p1>
-				<br>
-				<p2r>Tileset Mechanics</p2r>
-				<br>
-				<p1>Determined through prototyping mechanics with physical pieces and applying the</p1>
-				<a target="_blank" href="http://keithburgun.net/">
-				<div class="linkbox" id="keith" style="display: inline-block;">
-				<p1>Clockwork Game Design</p1></div>
-				</a>
-				<p1>methodology. </p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<h3rar>Lead Designer</h3rar>
-				<p2r style="padding-top: 3px;">Providing Structure</p2r>
-				<br>
-				<p1>Organizing the design team and acting as a contact point for other discipline leads.</p1>
-				<br>
-				<p2r>Tabletop-Mobile Adaptation</p2r>
-				<br>
-				<p1>Taking our core reference,</p1>	
-				<a target="_blank" href="https://boardgamegeek.com/boardgame/1219/labyrinth">
-				<div class="linkbox" id="doolhof" style="display: inline-block;">
-				<p1>Doolhof(Labyrinth)</p1></div>
-				</a>
-				<p1>, and adapting it to become a level based mobile puzzle game.</p1>	
-			</div>
-		</div>
-		<div class="slide active" id="oosgameplay">
-			<!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page4/4">
-					 <h3r>Lessons Learned</h3r>
-			</a>-->
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page4/1">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>Tiles aparT</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>A singleplayer puzzle game with over 50 carefully crafted levels that will boggle your mind.</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Out of the App Store, Google Play, and Itch.io.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Puzzle Game.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>16 Developers over 8 Weeks.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unity.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="tagameplay" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/Tiles Apart Trailer.mp4#t=11" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="tacorepuzzledesign">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page4">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page4/2">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Core Puzzle Design</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Process</p2r>
-							<br>
-							<p1w>Physically prototyping different movement and control mechanics using Doolhof(Labyrinth) pieces until our desired level of depth and elegance was reached.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/tilesapart/TA_Core.png">
-						<img data-src="imgs/tilesapart/TA_Core.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="tacore">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="taadaptation">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page4/1">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page4/3">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Tabletop-Mobile Adaptation</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Research</p2r>
-							<br>
-							<p1w>Dysect Doolhof, documenting it step by step, then pick and choose which elements to keep and focus on when adapting it into a mobile level-based puzzle game.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/tilesapart/TA_Adaptation.png">
-						<img data-src="imgs/tilesapart/TA_Adaptation.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="taadaptation">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="tatilesetmecahnics">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page4/2">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page4/4">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Tileset Mechanics</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Prototyping</p2r>
-							<br>
-							<p1w>Prototype a big variety of tilesets, judging them by how much depth they would add to the system and how well they expand our options in level creation.</p1w>
-							<br>
-							<p2r>Defining Feature Set</p2r>
-							<br>
-							<p1w>Select a set number of them to be developed in order of priority, determined by applying Clockwork Game Design methodology, specifically analyzing their impact when applied together to the game as a whole.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/tilesapart/TA_TilesetMechanics.png">
-						<img data-src="imgs/tilesapart/TA_TilesetMechanics.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="tatilesetmechanics">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="talesseonslearned">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page4/3">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page4">
-					 <h3r>RESTART</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Lessons Learned</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Core Up And Running</p2r>
-							<br>
-							<p1w>Getting the core of a game playable as soon as possible is a great motivator for the team and ensures you have a solid base to work from.</p1w>
-							<br>
-							<p2r>Onboarding is a Priority</p2r>
-							<br>
-							<p1w>We did not take ease of onboarding as a factor in our considerations when picking our core and secondary mechanics.This limited our user base dramatically and proved a very difficult issue to solve during development.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/tilesapart/TA_LessonsLearned.png">
-						<img data-src="imgs/tilesapart/TA_LessonsLearned.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="talessonslearned">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-	<div class="section" id="mineblowers" data-anchor="mineblowers">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page6">
-				 <h3r>NEXT PROJECT</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>Contact</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="gametitle" id="tilesaparttitle">
-				<gametitle>2017</gametitle>
-		</div>
-		<div class="details" id="tilesapartdetails"
-			 style="z-index: 200;">
-			<a href="https://drive.google.com/open?id=1NFPWtUka3tKr10Rcm0v6PWEkXUoFIvoG" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;">
-				<div class="detailsbox" id="mbdownload">
-					<b4r>downloAd</b4r>
-				</div>
-			</a>
-		</div>
-		<div class="rarnamebox" id="rarnamebox1">
-			<b3>role(S) & responsibilities</b3>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Tech Designer</h3rar>
-				<p2r style="padding-top: 3px;">Custom Controller</p2r>
-				<br>
-				<p1>Designing the custom pump controller, selecting and testing the necessary parts, wiring them up to the Arduino and attaching them to the bike pump.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<p2r style="padding-top: 37.8px;">Balancing Movement</p2r>
-				<br>
-				<p1>Altering the speed of movement and tilt of the minecart either in-engine or by altering the distance and positioning of the IR sensor on the pump.</p1>
-			</div>
-		</div>
-		<div class="slide active" id="oosgameplay">
-			<!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page5/3">
-					 <h3r>Lessons Learned</h3r>
-			</a>-->
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page5/1">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>MineblowerS</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>Race out of town as fast as possible while balancing your speed to stay on the tracks. Played best using our custom pump controller!</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Available for Download.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Time Trial Runner.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>8 Developers over 2 Weeks.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Engine 4.18, Arduino, Tinkercad.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="mbgameplay" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/mb/MB_Gameplay.mp4#t=2" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="mbcustomcontroller">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page5">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page5/2">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Custom Controller</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Game-Jam Timeframe</p2r>
-							<br>
-							<p1w>We were working under a tight deadline so we had to work with the parts we had readily available or that we could have delivered to us within a few days.</p1w>
-							<br>
-							<p2r>Tinkering</p2r>
-							<br>
-							<p1w>We attempted several options for translating the pumping action in-game, including a potentiometer and wheel combo and an air flow sensor but finally ended up with an IR sensor and a reflector.</p1w>
-							<br>
-							<p2r>Process</p2r>
-							<br>
-							<p1w>My process was designing the circuit on Tinkercad after which I created a diagram and the physical prototype.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/mb/MB_Controller.png">
-						<img data-src="imgs/mb/MB_Controller.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="mbcontro">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="taadaptation">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page5/1">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page5/3">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Balancing Movement</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Many Variables</p2r>
-							<br>
-							<p1w>Tweaking the movement proved especially challenging, as I wasn't working with a completely stable controller and a lot of variables were fluctuating because of the actuation of the pump itself.</p1w>
-							<br>
-							<p2r>Moderate Workout</p2r>
-							<br>
-							<p1w>After a lot of adjustments both to the controller and to the blueprints, I've achieved a desired speed and tilt rate that would provide an adequate amount of challenge and not completely tire out an average player.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/mb/MB_MovementBalacing.png">
-						<img data-src="imgs/mb/MB_MovementBalacing.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="mbmov">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="tatilesetmecahnics">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page5/2">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page5">
-					 <h3r>RESTART</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Lessons Learned</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Research in Pre-Production</p2r>
-							<br>
-							<p1w>Because of the short development time, I've experienced the issues that can arise from not doing enough research ahead of time. This was compounded by my lack of experience in electrical engineering.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/mb/MB_LessonsLearned.png">
-						<img data-src="imgs/mb/MB_LessonsLearned.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="mblessons">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-	<div class="section" id="dmsalvation" data-anchor="dmsalvation">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page7">
-				 <h3r>OTHER PROJECTS</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>CONTACT</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="gametitle" id="tilesaparttitle">
-				<gametitle>2017</gametitle>
-		</div>
-		<div class="details" id="tilesapartdetails"
-			 style="z-index: 200;">
-			<a href="https://drive.google.com/open?id=11eSd2DN1vPFwjYtXAJPZ4auQUtsONqeB" 
-			   target="_blank"
-			   style="display: inline-block; 
-					  height: 100%;">
-				<div class="detailsbox" id="mbdownload">
-					<b4r>downloAd</b4r>
-				</div>
-			</a>
-		</div>
-		<div class="rarnamebox" id="rarnamebox1">
-			<b3>role(S) & responsibilities</b3>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Level Designer</h3rar>
-				<p2r style="padding-top: 3px;">Research UT</p2r>
-				<br>
-				<p1>Getting acquainted with Unreal Tournament and understanding what makes their levels tick.</p1>
-				<br>
-				<p2r>Blockouts</p2r>
-				<br>
-				<p1>Creating gameplay spaces in a gym environment.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<p2r style="padding-top: 37.8px;">Organizing Playtests</p2r>
-				<br>
-				<p1>Arranging playtests for my own map and those of other students and keeping detailed records to inform my next iterations.</p1>
-			</div>
-		</div>
-		<div class="slide active" id="oosgameplay">
-			<!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page6/4">
-					 <h3r>Lessons Learned</h3r>
-			</a>-->
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page6/1">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>DM-salvation</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>An Unreal Tournament map built for 2-6 players, inside and around an abandoned Soviet missile silo.</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Available for Download.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Arena FPS.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>Solo Project over 8 Weeks.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Tournament Editor, Unreal Engine 4.18.</p1w>
-						</div>
-					</div>d
-					<div class="imagehousing2" id="prototupe88">
-						<video id="dmgameplay" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/dm/DM_Gameplay.mp4#t=24" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="dmresearch">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page6">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page6/2">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Research UT</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>MDA Analysis</p2r>
-							<br>
-							<p1w>Created a diagram to categorize the system in Unreal Tournament via the MDA model.</p1w>
-							<br>
-							<p2r>Map Analysis</p2r>
-							<br>
-							<p1w>By analyzing successful maps I was able to pick up on common elements and inform what are common choices in UT level design and what are unique elements.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/dm/DM_Research.png">
-						<img data-src="imgs/dm/DM_Research.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="dmresearch">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="dmblockouts">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page6/1">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page6/3">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Blockouts</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>One-Offs</p2r>
-							<br>
-							<p1w>Creating several very rough layouts using the metrics I've gathered from existing maps to get a general feel of the direction I wanted to head into.</p1w>
-							<br>
-							<p2r>Iterations & Documentation</p2r>
-							<br>
-							<p1w>Once I had a clear direction I started iterating on specific sections of the map and documenting the process for future reference. This way I was also able to improve my speed and efficiency at creating the blockout by showing my exact process and asking for feedback.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="dmblockouts" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/dm/DM_Blockouts.mp4#t=48" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="dmplaytests">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page6/2">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page6/4">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Organizing Playtests</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Planning</p2r>
-							<br>
-							<p1w>I've started an initiative of planning and scheduling playtests for several of the maps that were being developed at the time. This was done using a centralized sign-up sheet and recorded for viewing in post.</p1w>
-							<br>
-							<p2r>Overseeing</p2r>
-							<br>
-							<p1w>I personally oversaw the tests and saw to any technical issues we were having, be it with the machines or the game servers.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/dm/DM_Playtesting.png">
-						<img data-src="imgs/dm/DM_Playtesting.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="dmtests">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="dmlessonslearned">
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page6/3">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page6">
-					 <h3r>RESTART</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<h3w>Lessons Learned</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Convoluted Theme</p2r>
-							<br>
-							<p1w>If people can't put their finger on what you are trying to convey (in this case being the theme of the map), it is likely a bad idea to go ahead with it if you don't have the necessary time to clarify your intentions. My level design proposal suffered from this issue.</p1w>
-							<br>
-							<p2r>Document Process</p2r>
-							<br>
-							<p1w>Documenting your process in detail is extremely valuable for future reference and should be done whenever time allows for it.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<a href="imgs/dm/DM_LessonsLearned.png">
-						<img data-src="imgs/dm/DM_LessonsLearned.png"
-							 style="display: block;
-									position: absolute;
-									top: 50%;
-									transform: translateY(-50%);"
-							 alt="dmlessons">
-						</a>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-	<div class="section" id="otherprojects" data-anchor="otherprojects">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page8">
-				 <h3r>SKILLS</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>CONTACT</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<div class="gametitle" id="tilesaparttitle">
-					<gametitle>2016 - present</gametitle>
-			</div>
-		<div class="rarnamebox" id="rarnamebox1">
-			<b3>role(S) & responsibilities</b3>
-		</div>
-		<div class="slide active" id="nicetryplane">
-			<div class="details" id="tilesapartdetails"
-				 style="z-index: 200;">
-				<a href="https://droodlsaurus.itch.io/nice-try-plane" 
-				   target="_blank"
-				   style="display: inline-block; 
-						  height: 100%;">
-					<div class="detailsbox" id="mbdownload">
-						<b4r>itch.IO</b4r>
-					</div>
-				</a>
-			</div>
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Tech Designer</h3rar>
-				<p2r style="padding-top: 3px;">Falling Objects</p2r>
-				<br>
-				<p1>Logic for objects falling, attaching themselves onto your plane, being hit by the players and then falling off your plane.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<p2r style="padding-top: 37.8px;">Balancing</p2r>
-				<br>
-				<p1>Getting the weight and rate of rotation perfect to achieve a state of flow.</p1>
-				<br>
-				<p2r>Ladders</p2r>
-				<br>
-				<p1>Creating the logic for going up and down ladders and hooking up the UI elements.</p1>
-			</div>
-		</div>
-			<!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page7/3">
-					 <h3r>Overmind</h3r>
-			</a>-->
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page7/1">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>Nice Try, Plane!</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>Balance keeping the plane upright with your greed as you compete with your friends to see who can rack up the highest score while not plummeting off.</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Out on Itch.io.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Competitive Co-op Party Game.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>11 Developers during the Global Game Jam 2019.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Engine 4.21, HOUDINI.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="nicetryplanevid" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/ntp/NTP_Gameplay.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="ephemeralenergy">
-			<!--<div class="details" id="tilesapartdetails"
-				 style="z-index: 200;">
-				<a href="https://droodlsaurus.itch.io/nice-try-plane" 
-				   target="_blank"
-				   style="display: inline-block; 
-						  height: 100%;">
-					<div class="detailsbox" id="mbdownload">
-						<b4r>downloAd here</b4r>
-					</div>
-				</a>
-			</div>-->
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Producer</h3rar>
-				<p2r style="padding-top: 3px;">Organizing Feature Teams</p2r>
-				<br>
-				<p1>Divide up the team to work towards several objectives.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<p2r style="padding-top: 37.8px;">Managing the Backlog</p2r>
-				<br>
-				<p1>Using Trello to keep track of the backlog, assign tasks and give feedback to work in progress.</p1>
-			</div>
-		</div>
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page7">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page7/2">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>Ephemeral Energy</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>Sneak through ruins guarded by ancient sentries to gather the 3 crystals of power.</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Complete.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Top Down Stealth Game.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>15 Developers over 8 Weeks.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Engine 4.17.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="eevid" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/ee/EE_Gameplay.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="yellowsubmarine">
-			<div class="details" id="tilesapartdetails"
-				 style="z-index: 200;">
-				<a href="https://globalgamejam.org/2017/games/yellow-submarine" 
-				   target="_blank"
-				   style="display: inline-block; 
-						  height: 100%;">
-					<div class="detailsbox" id="mbdownload">
-						<b4r>downloAd</b4r>
-					</div>
-				</a>
-			</div>
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>Tech Designer</h3rar>
-				<p2r style="padding-top: 3px;">Rhythm Game</p2r>
-				<br>
-				<p1>Logic behind the rhythm game section developed in blueprints using a string for beat information input. UI implemented and synced up to the beat.</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<p2r style="padding-top: 37.8px;">Radar Concept</p2r>
-				<br>
-				<p1>Helped create the radar concept and tied the speed of rotation to the rhythm game section.</p1>
-			</div>
-		</div>
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page7/1">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page7/3">
-					 <h3r>LEARN MORE</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>Yellow Submarine</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>Safely navigate the treacherous waters with a balalaika powered sonar!</p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Available on the Global Game Jam site.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>Co-op Navigation Rhythm Game.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>6 Developers during the Global Game Jam 2017.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Engine 4.17.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="ysgameplay" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/ys/YS_Gameplay.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide" id="overmind">
-			<div class="details" id="tilesapartdetails"
-				 style="z-index: 200;">
-				<a href="https://drive.google.com/open?id=1RTPkhhWkEEm2XSjL5ZEWrk5HLR9EJbv7" 
-				   target="_blank"
-				   style="display: inline-block; 
-						  height: 100%;">
-					<div class="detailsbox" id="mbdownload">
-						<b4r>downloAd</b4r>
-					</div>
-				</a>
-			</div>
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-				<h3rar>UI/UX Designer</h3rar>
-				<p2r style="padding-top: 3px;">Interface</p2r>
-				<br>
-				<p1>Designed and implemented the radar ring that tracks the progress in a round and threats around the player.</p1>
-				<br>
-				<h3rar>Audio Producer</h3rar>
-				<p2r style="padding-top: 3px;">SFX</p2r>
-				<br>
-				<p1>Created and implemented all sound effects</p1>
-			</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-				<h3rar>Level Designer</h3rar>
-				<p2r style="padding-top: 3px;">Tutorial</p2r>
-				<br>
-				<p1>Created the concept for the tutorial level, the blockout of the level and all the triggers to transition through each stage of the tutorial.</p1>
-			</div>
-		</div>
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page7/2">
-					 <h3r>BACK</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page7">
-					 <h3r>RESTART</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities">
-						<gametitle2>oVerminD</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p1w>The (potential) future of squad-based tactics. Control your drone squad member's every action in first person as they breach and clear room after room. As you are sending out your control signal remotely, you only get the visual information about the enemies whereabouts from one turn prior. </p1w>
-							<br>
-							<p2r>Status</p2r>
-							<br>
-							<p1w>Available for Download.</p1w>
-							<br>
-							<p2r>Genre</p2r>
-							<br>
-							<p1w>First Person Squad Based Tactics.</p1w>
-							<br>
-							<p2r>Scope</p2r>
-							<br>
-							<p1w>4 Developers over 8 Weeks.</p1w>
-							<br>
-							<p2r>Engine & Tools</p2r>
-							<br>
-							<p1w>Unreal Engine 4.18.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-						<video id="overmindvid" 
-							   loop muted data-autoplay controls allowfullscreen
-							   style="max-width: 100%; 
-									  height: 100%;">
-							<source data-src="videos/om/OM_Gameplay.mp4#t=18" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>	
-		</div>
-		
-		
-		
-		
-	</div>
-	
-	<div class="section" id="skillsnew" data-anchor="skills">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page9">
-				 <h3r>ABOUT ME</h3r>
-		</a>
-		<a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
-				 <h3r>CONTACT</h3r>
-		</a>
-		<a class="arrownameplatebottomright" id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf">
-				 <h3r>CV</h3r>
-		</a>
-		<!--<div class="gametitle" id="tilesaparttitle">
-					<gametitle>Skills</gametitle>
-			</div>-->
-		<div class="rarnamebox" id="rarnamebox1">
-			<b3>Proficient With</b3>
-		</div>
-		<div class="slide active" id="techskills">
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-				<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-					<div class="imgp" id="ue4p"> 
-						<img data-src="imgs/engines/unreal.png" 
-							 alt="ue4">
-						<h5r>UE4</h5r>
-					</div>
-					<div class="imgp" id="unityp"> 
-						<img data-src="imgs/engines/unity.png" 
-							 alt="unity">
-						<h5r>Unity</h5r>
-					</div>
-					<div class="imgp" id="p4vp"> 
-						<img data-src="imgs/sourcecontrol/perforce.png" 
-							 alt="perforce">
-						<h5r>P4V</h5r>
-					</div>
-					<div class="imgp" id="svnp"> 
-						<img data-src="imgs/sourcecontrol/svn.png"
-							 alt="svn">
-						<h5r>SVN</h5r>
-					</div>
-				</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-				<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-					<div class="imgp" id="githubp"> 
-						<img data-src="imgs/sourcecontrol/github.png"
-							 alt="github">
-						<h5r>Git</h5r>
-					</div>
-					<div class="imgp" id="premierep"> 
-						<img data-src="imgs/adobe/premiere.png"
-							 alt="premiere">
-						<h5l>Premiere</h5l>
-					</div>
-					<div class="imgp" id="auditionp"> 
-						<img data-src="imgs/adobe/audition.png"
-							 alt="audition">
-						<h5l>Audition</h5l>
-					</div>
-					<div class="imgp" id="dreamweaverp"> 
-						<img data-src="imgs/adobe/dreamweaver.png"
-							 alt="dreamweaver">
-						<h5l>Dreamweaver</h5l>
-					</div>
-				</div>
-		</div>
-			<!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page8/2">
-					 <h3r>PRODUCTION</h3r>
-			</a>-->
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page8/1">
-					 <h3r>DESIGN</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
-						<gametitle2>Tech skills</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Visual Scripting</p2r>
-							<br>
-							<p1w>700+ Hours of experience with Unreal Engine 4 blueprints. (over the course of 2.5 years)</p1w>
-							<br>
-							<p2r>Adaptable</p2r>
-							<br>
-							<p1w>Ability to quickly pick up a new scripting language or proprietary tool. Examples include Twine and the Awesomenauts Dev Tools. </p1w>
-							<br>
-							<p2r>Editor</p2r>
-							<br>
-							<p1w>I enjoy the edditing process. Experience editing and mixing trailer footage and music vocals.</p1w>
-							<br>
-							<p2r>This Website</p2r>
-							<br>
-							<p1w>Using the framework of</p1w>	
-							<a target="_blank" href="https://alvarotrigo.com/fullPage/">
-							<div class="linkbox" id="wellcooked" style="display: inline-block;">
-							<p1w>fullpage.js</p1w></div>
-							</a>	
-							<p1w>I picked up the html, css and javascript required to create this site.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide " id="designskills">
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-				<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-					<div class="imgp" id="sheetsp"> 
-						<img data-src="imgs/google/sheets.png" 
-							 alt="sheets"
-							 style="height: 100%;">
-						<h5r>Sheets</h5r>
-					</div>
-					<div class="imgp" id="excelp"> 
-						<img data-src="imgs/microsoft/excel.png" 
-							 alt="excel"
-							 style="height: 100%;">
-						<h5r>Excel</h5r>
-					</div>
-				</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-				<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-					<div class="imgp" id="indesignp"> 
-						<img data-src="imgs/adobe/indesign.png" 
-							 alt="indesign">
-						<h5l>Indesign</h5l>
-					</div>
-					<div class="imgp" id="illustratorp"> 
-						<img data-src="imgs/adobe/illustrator.png" alt="illustrator">
-						<h5l>Illustrator</h5l>
-					</div>
-				</div>
-		</div>
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page8">
-					 <h3r>TECH</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page8/2">
-					 <h3r>PRODUCTION</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
-						<gametitle2>Design skills</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Level Design</p2r>
-							<br>
-							<p1w>400+ Hours of experience sketching, creating blockouts, testing and iterating. (over the course of 2.5 years)</p1w>
-							<br>
-							<p2r>Game Design</p2r>
-							<br>
-							<p1w>Concepting and iteration of rulesets for diverse genres of video games and board games. Heavily envolved in the design of every project i've worked on.</p1w>
-							<br>
-							<p2r>Systems Design</p2r>
-							<br>
-							<p1w>Systemically oriented in my design with a focus on scalability, synergy and exploring different methodologies.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="slide " id="productionskills">
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-				<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-					<div class="imgp" id="jirap"> 
-						<img data-src="imgs/production/jira.png" 
-							 alt="jira">
-						<h5r>Jira</h5r>
-					</div>
-					<div class="imgp" id="trello"> 
-						<img data-src="imgs/production/hack'n'plan.png" 
-							 alt="hack'n'plan">
-						<h5r>HacknPlan</h5r>
-					</div>
-					<div class="imgp" id="trello"> 
-						<img data-src="imgs/production/trello.png" 
-							 alt="jira">
-						<h5r>Trello</h5r>
-					</div>
-				</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-				<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-					<div class="imgp" id="Omnifocusp">
-						<img data-src="imgs/production/omnifocus.png" 
-							 alt="Omnifocus">
-						<h5l>Omnifocus</h5l>
-					</div>
-					<div class="imgp" id="projectsp"> 
-						<img data-src="imgs/microsoft/project.png" 
-							 alt="projects"
-							 style="height: 100%;">
-						<h5l>Projects</h5l>
-					</div>
-					<div class="imgp" id="powerpointp"> 
-						<img data-src="imgs/microsoft/powerpoint.png" 
-							 alt="powerpoint"
-							 style="height: 100%;">
-						<h5l>Powerpoint</h5l>
-					</div>
-				</div>
-		</div>
-			<a class="arrownameplateleft" id="skilldiscipletech1" href="#page8/1">
-					 <h3r>DESIGN</h3r>
-			</a>
-			<a class="arrownameplateright" id="skilldiscipletech1" href="#page8">
-					 <h3r>TECH</h3r>
-			</a>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
-						<gametitle2>Production skills</gametitle2>
-						<br>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Agile Scrum</p2r>
-							<br>
-							<p1w>6 Team Projects using Agile Methodology. Experience as Producer for a team of 15. (Ephemeral Energy)</p1w>
-							<br>
-							<p2r>Task Management & Time Tracking</p2r>
-							<br>
-							<p1w>Personal ambition to effectively manage my time and keep track of my tasks efficiently using automated methods if available.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	<div class="section" id="aboutme" data-anchor="skills">
-		<a class="arrownameplatebottom" id="skillssectionplate" href="#page1">
-				 <h3r>RESTART</h3r>
-		</a>
-	<!--	<div class="gametitle" id="tilesaparttitle">
-					<gametitle>About Me</gametitle>
-			</div>-->
-		<div class="rarnamebox2" id="rarnamebox1">
-			<b3>Contact & Cv</b3>
-		</div>
-		<div class="slide active" id="techskills">
-			<div class="rar" id="tilesapartdescription"
-			 style="left: 120px;">
-				<div class="rartextboxright" id="TAdresponsabilitiestextbox">
-					<a target="_blank" class="imgp" id="ue4p" href="https://linkedin.com/in/radudesign"> 
-						<img data-src="imgs/linkedin.png" 
-							 alt="linkedin">
-						<h5r>Linkedin</h5r>
-					</a>
-					<a target="_blank" class="imgp" id="unityp" href="https://twitter.com/radu_design"> 
-						<img data-src="imgs/twitter.png" 
-							 alt="twitter">
-						<h5r>Twitter</h5r>
-					</a>
-					<br>
-					<p2r>Email</p2r>
-					<br>
-					<a href="mailto:contact@radu.design">
-					<p1>contact@radu.design</p1></a>
-				</div>
-		</div>
-		<div class="rar" id="tilesapartdescription"
-			 style="right: 120px;">
-				<div class="rartextboxleft" id="TAdresponsabilitiestextbox">
-					<a class="imgp" id="githubp" href="CV_RaduTeodosescu.pdf"> 
-						<img data-src="imgs/pdf.png"
-							 alt="pdf">
-						<h5r>CV</h5r>
-					</a>
-				</div>
-		</div>
-			<div class="imagepanel" id="tilesapartimagepanel3">
-				<div class="imagehousing" id="tilesapartimagehousing">
-					<div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
-						<gametitle2>About Me</gametitle2>
-						<br>
-						<h3w>Pastimes outside of games</h3w>
-						<div class="textbox" id="TAdresponsabilitiestextbox">
-							<p2r>Dance Choreography</p2r>
-							<br>
-							<p1w>A passion of mine ever since I learned street dancing. Given the right resources I would try it profesionally.</p1w>
-							<br>
-							<p2r>Cortex Podcast</p2r>
-							<br>
-							<p1w>I've seen my day to day working life in a very different light since listening to this podcast. Key listening material for the creative professional.</p1w>
-						</div>
-					</div>
-					<div class="imagehousing2" id="prototupe88">
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	
-</div>
+    <div id="fullpage">
+      <!--	<div class="section" id="aboutme" data-anchor="aboutme">
+		<h1>about me</h1>	</div>-->
+      <div class="redblock" id="highlightblackblock" style="background-color: #E53E30; position: absolute; z-index: 9999;">
+        <img src="imgs/monitor.png" style="display: block;
+					position: absolute;					width: 200px;
+					height: 200px;					left: 50%;
+					top: 100px;					transform: translateX(-50%);" alt="radudesignoutoforder" />
+        <h3w style="position: absolute;
+					top: 310px;					left: 50%;
+					transform: translateX(-50%);"> Your Resolution is NOT Supported! Continue
+          at your peril.</h3w> </div>
+      <div class="section active" id="intro" data-anchor="intro"> <a class="arrownameplatebottom"
 
+          id="skillssectionplate" href="#page2"> <h3r>SCROLL</h3r> </a> <a class="arrownameplatebottomleft"
 
-<script type="text/javascript" src="fullpage.js"></script>
-<script type="text/javascript">
+          id="skilldiscipletech1" href="#page9"> <h3r>CONTACT</h3r> </a> <a class="arrownameplatebottomright"
+
+          id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="rar" id="tilesapartdescription" style="left: 80px;">
+          <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <b1>User
+              centric</b1> </div>
+        </div>
+        <div class="rar" id="tilesapartdescription" style="right: 80px;">
+          <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <b1>game
+              desigN</b1> </div>
+        </div>
+        <div class="namebox" id="myname" style="left: 50%;"> <b2>radu
+            teodosescu</b2> </div>
+        <div class="usercentric" id="usercentric"> <img data-src="imgs/RaduDesignLogoAnimatedAlpha.gif"
+
+            style="position: absolute; 
+						transform: translate(-50%,-50%); 						top: 50%; 
+						left: 50%;						border-width: 50px;
+						border-style: solid;						border-color: #F6F9FC;
+						border-radius: 50%;" /> </div>
+        <!--<div class="titlebox" id="mytitle"
+			 style="right: calc(50% + 100px);					transform: translate(0%,50%);">
+			<b1>User Centric</b1>		</div>
+		<div class="titlebox" id="mytitle"			 style="left: calc(50% + 100px);
+					transform: translate(0%,50%);">			<b1>Tech Design</b1>
+		</div>-->
+        <!--<a class="active" href="#page1">
+		<div class="mainpagebuttonup" id="mainpagetopbutton" onClick="moveSectionUp()">		</div>
+		</a>-->
+        <!--<a class="active" href="#page2">
+		<div class="mainpagebuttondown" id="mainpagetopbutton" style="width: calc(100% - 300px); left:50%; transform: translateX(-50%);">		</div>
+		</a>--> </div>
+      <div class="section" id="highlightreel" data-anchor="highlightreel"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page3"> <h3r>PROJECTS</h3r> </a> <a
+
+          class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
+          <h3r>CONTACT</h3r> </a> <a class="arrownameplatebottomright" id="skilldiscipletech1"
+
+          href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="gametitle" id="outofspacegametitle"> <gametitle>2014 -
+            present</gametitle> </div>
+        <!--<div class="details" id="tilesapartdetails"
+			 style="z-index: 200;">			<a href="http://www.doubledoorgame.com/" 
+		   target="_blank"		   style="display: inline-block; 
+				  height: 100%;">				<div class="detailsbox" id="mbdownload">
+						<b4r>deV log</b4r>				</div>
+			</a>		</div>-->
+        <div class="rarnamebox2" id="rarnamebox1" style="top: calc(calc(calc(100% - 80px - 50px - 50px - 20px) / 3 * 2) + 60px);">
+          <b3>What is</b3> <br />
+          <b3 style="color: #E53E30">User centric tech desigN</b3> </div>
+        <div class="rar" id="tilesapartdescription" style="left: 120px;">
+          <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>User
+              Centric</h3rar> <p2r style="padding-top: 3px;">Principle</p2r> <br />
+            <p1>Using the lens of player experience to guide your decisions
+              during development is the first step in creating something of
+              actual value, both on the market and culturally.</p1> <br />
+            <p2r>In Practice</p2r> <br />
+            <p1>A good understanding of your audience, riguous testing and the
+              use of metrics is central to my work.</p1> </div>
+        </div>
+        <div class="rar" id="tilesapartdescription" style="right: 120px;">
+          <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <h3rar>Tech
+              Design</h3rar> <p2r style="padding-top: 3px;">The Craft</p2r> <br />
+            <p1>How you go about implementing your ideas and what tools you use
+              can be the most important part of the process.</p1> <br />
+            <p2r>Self Reliance</p2r> <br />
+            <p1>Being involved at the ground level means spotting problems early
+              and having the ability to solve them independently.</p1> </div>
+        </div>
+        <div class="slide active" id="highlightreelslide">
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>Summary</gametitle2>
+                <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>
+                    Developing games for 5 years, both independently &amp; in
+                    teams of 20+ developers. </p1w> <br />
+                  <p2r>Current Position</p2r> <br />
+                  <p1w>Studying at</p1w> <a target="_blank" href="https://www.buas.nl/en/programmes/creative-media-and-game-technologies">
+                    <div class="linkbox" id="buas"> <p1w>BUas</p1w></div>
+                  </a> <p1w>(former NHTV)</p1w> <br />
+                  <p2r>Released</p2r> <br />
+                  <p1w>Tiles Apart</p1w> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.heatstroke.tilesapart">
+                    <div class="linkbox" id="buas"> <p1w>Google Play</p1w></div>
+                  </a> <a target="_blank" href="https://itunes.apple.com/us/app/tiles-apart/id1444205610#?platform=iphone">
+                    <div class="linkbox" id="buas"> <p1w>App Store</p1w></div>
+                  </a> <br />
+                  <br />
+                  <p1w>Nice Try, Plane!</p1w> <a target="_blank" href="https://droodlsaurus.itch.io/nice-try-plane">
+                    <div class="linkbox" id="buas"> <p1w>Itch.IO</p1w></div>
+                  </a> <br />
+                  <p2r>Releasing 2019</p2r> <br />
+                  <p1w>Captain Starshot (Steam)</p1w> <br />
+                  <p2r>Why Games?</p2r> <br />
+                  <p1w>As one of the newest art forms, they have the potential
+                    to be a driving force for culture and I want to be at the
+                    forefront of that.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="oosgameplayvideo"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/HighlightReel.mp4" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <!--<div class="lessblackblock" id="cinematicbox">
+		</div>		<div class="blackblock" id="highlightblackblock">
+			<video id="oosgameplayvideo" 					   loop muted data-autoplay controls allowfullscreen autoplay
+					   style="max-width: 100%; 							  height: 100%;">
+					<source src="videos/HighlightReel.mp4" type="video/mp4">			</video>
+		</div>		<div class="rar" id="tilesapartdescription"
+			 style="left: 120px;">			<div class="rartextboxright" id="TAdresponsabilitiestextbox">
+				<b3w>developing games for 5 years and studying at buas (former nhtv)</b3w>			</div>
+		</div>		<div class="rar" id="tilesapartdescription"
+			 style="right: 120px;					vertical-align: middle;">
+			<div class="rartextboxleft" id="TAdresponsabilitiestextbox">				<b3w>projects released on the app store, google play and itch.io</b3w>
+			</div>		</div>
+		<div class="slide active" id="highlightreelslide">			<div class="imagepanel" id="tilesapartimagepanel3">
+				<div class="imagehousing" id="tilesapartimagehousing">				</div>
+			</div>			</div>--> </div>
+      <div class="section" id="outofspace" data-anchor="outofspace"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page4"> <h3r>NEXT PROJECT</h3r> </a>
+        <a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
+          <h3r>Contact</h3r> </a> <a class="arrownameplatebottomright" id="skilldiscipletech1"
+
+          href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="gametitle" id="outofspacegametitle"> <gametitle>2018</gametitle>
+        </div>
+        <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a href="http://www.doubledoorgame.com/"
+
+            target="_blank" style="display: inline-block; 
+				  height: 100%;">
+            <div class="detailsbox" id="mbdownload"> <b4r>deV log</b4r> </div>
+          </a> </div>
+        <div class="rarnamebox" id="rarnamebox1"> <b3>role(S) &amp;
+            responsibilities</b3> </div>
+        <div class="rar" id="tilesapartdescription" style="left: 120px;">
+          <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Tech
+              Designer</h3rar> <p2r style="padding-top: 3px;">Modular Ability
+              Tool</p2r> <br />
+            <p1>An expandable tool that can create complex interactions from
+              simply editing a data structure.</p1> <br />
+            <p2r>Blueprint Systems Design</p2r> <br />
+            <p1>Designing or refactoring the system for dealing damage, handling
+              rooms, boarding ships, and space movement.</p1> </div>
+        </div>
+        <div class="rar" id="tilesapartdescription" style="right: 120px;">
+          <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <h3rar>Level
+              Designer</h3rar> <p2r style="padding-top: 3px;">Procedural Levels</p2r>
+            <br />
+            <p1>Creating rules for the procedural generation of levels using our
+              proprietary graph grammers tool.</p1> <a target="_blank" href="https://www.doubledoorgame.com/2018/12/14/development-log-2-pcg-magic/">
+              <div class="linkbox" id="universe" style="display: inline-block;">
+                <p1>Universe Tool</p1></div>
+            </a> <br />
+            <p2r>Outsourcing Contact Point</p2r> <br />
+            <p1>Working as a bridge between</p1> <a target="_blank" href="http://wellcooked.audio/">
+              <div class="linkbox" id="wellcooked" style="display: inline-block;">
+                <p1>Wellcooked Audio</p1></div>
+            </a> <p1>and our team to deliver the music and sound design.</p1> </div>
+        </div>
+        <div class="slide active" id="oosgameplay">
+          <!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page3/3">
+					 <h3r>1 / 4</h3r>			</a>--> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page3/1"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>Captain
+                  Starshot</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>Pilot
+                    your ship and fight aliens on foot with the help of your
+                    trusty squad, in order to save humanity from a gruesome
+                    fate!</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>In Production, to be released April 12th 2019.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Top-Down Shooter Roguelite.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>22 Developers &amp; 9 Outsourcing over 8 Months.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Engine 4.21, HOUDINI,</p1w> <a target="_blank" href="https://www.doubledoorgame.com/2018/12/14/development-log-2-pcg-magic/">
+                    <div class="linkbox" id="universe"> <p1w>Universe Tool</p1w></div>
+                  </a> <p1w>.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="oosgameplayvideo"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/OOS Gameplay.mp4" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="oosmodularabilitysystem"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page3"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page3/2"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Modular
+                  Ability Tool</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Purpose</p2r>
+                  <br />
+                  <p1w>Designed to eliminate the need for hardcoding abilities
+                    and expand our range of possibilities we have to offer to
+                    the player.</p1w> <br />
+                  <p2r>UX</p2r> <br />
+                  <p1w>Conditions &amp; Actions are the building blocks of this
+                    system.</p1w> <p1w>They determine the use case of an
+                    ability and guide player decision making.</p1w> <p1w>Mix
+                    and match in a data structure to achieve different results.</p1w>
+                </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/oos/oosas.png">
+                  <img data-src="imgs/oos/oosas.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="oosas" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="oosblueprintsystemsdesign"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page3/1"> <h3r>BACK</h3r> </a> <a
+
+            class="arrownameplateright" id="skilldiscipletech1" href="#page3/3">
+            <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Blueprint
+                  Systems Design</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Custom
+                    Damage System</p2r> <br />
+                  <p1w>Built to be integrated into the modular ability tool, be
+                    expandable and accommodate status effects.</p1w> <br />
+                  <p2r>Rooms</p2r> <br />
+                  <p1w>Gameplay layer logic for rooms as well as the
+                    positioning, opening, and locking of doors.</p1w> <br />
+                  <p2r>Boarding Ships</p2r> <br />
+                  <p1w>The logic behind spawning and despawning different player
+                    characters alongside a smooth transition from your ship to
+                    your on foot player character.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/oos/OOS_Blueprint.png">
+                  <img data-src="imgs/oos/OOS_Blueprint.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="oosblu" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="ooslessonslearned"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page3/2"> <h3r>BACK</h3r> </a> <a
+
+            class="arrownameplateright" id="skilldiscipletech1" href="#page3"> <h3r>RESTART</h3r>
+          </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Lessons
+                  Learned</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>It's
+                    Never Too Late To Future Proof</p2r> <br />
+                  <p1w>On a long project, it is even more important to properly
+                    structure your code, as you will be doing yourself a favor
+                    in the long run. A great amount of time has been spent
+                    solely refactoring while developing Captain Starshot.</p1w>
+                  <br />
+                  <p2r>Be Open To Lateral Learning</p2r> <br />
+                  <p1w>I've had multiple tasks outside of my comfort zone that
+                    have prompted me to learn new skills such as working with
+                    in-house tools, web development and code reviews.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/oos/OS_LessonsLearned.png">
+                  <img data-src="imgs/oos/OS_LessonsLearned.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="oosll" /> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="tilesapart" data-anchor="tilesapart"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page5"> <h3r>NEXT PROJECT</h3r> </a>
+        <a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
+          <h3r>CONTACT</h3r> </a> <a class="arrownameplatebottomright" id="skilldiscipletech1"
+
+          href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="gametitle" id="tilesaparttitle"> <gametitle>2018</gametitle>
+        </div>
+        <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a href="https://play.google.com/store/apps/details?id=com.heatstroke.tilesapart"
+
+            target="_blank" style="display: inline-block; 
+					  height: 100%;					  					  margin-right: 20px;">
+            <div class="detailsbox" id="mbdownload"> <b4r>google plAy</b4r> </div>
+          </a> <a href="https://itunes.apple.com/us/app/tiles-apart/id1444205610#?platform=iphone"
+
+            target="_blank" style="display: inline-block; 
+					  height: 100%;					  margin-left: 20px;				  
+					  margin-right: 20px;">
+            <div class="detailsbox" id="mbdownload"> <b4r>App store</b4r> </div>
+          </a> <a href="https://heatstroke.itch.io/tilesapart" target="_blank"
+
+            style="display: inline-block; 
+					  height: 100%;					  margin-left: 20px;">
+            <div class="detailsbox" id="mbdownload"> <b4r>itch.IO</b4r> </div>
+          </a> </div>
+        <div class="rarnamebox" id="rarnamebox1"> <b3>role(S) &amp;
+            responsibilities</b3> </div>
+        <div class="rar" id="tilesapartdescription" style="left: 120px;">
+          <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Systems
+              Designer</h3rar> <p2r style="padding-top: 3px;">Core Puzzle
+              Design</p2r> <br />
+            <p1>Creating simple but expandable core gameplay.</p1> <br />
+            <p2r>Tileset Mechanics</p2r> <br />
+            <p1>Determined through prototyping mechanics with physical pieces
+              and applying the</p1> <a target="_blank" href="http://keithburgun.net/">
+              <div class="linkbox" id="keith" style="display: inline-block;"> <p1>Clockwork
+                  Game Design</p1></div>
+            </a> <p1>methodology. </p1> </div>
+        </div>
+        <div class="rar" id="tilesapartdescription" style="right: 120px;">
+          <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <h3rar>Lead
+              Designer</h3rar> <p2r style="padding-top: 3px;">Providing
+              Structure</p2r> <br />
+            <p1>Organizing the design team and acting as a contact point for
+              other discipline leads.</p1> <br />
+            <p2r>Tabletop-Mobile Adaptation</p2r> <br />
+            <p1>Taking our core reference,</p1> <a target="_blank" href="https://boardgamegeek.com/boardgame/1219/labyrinth">
+              <div class="linkbox" id="doolhof" style="display: inline-block;">
+                <p1>Doolhof(Labyrinth)</p1></div>
+            </a> <p1>, and adapting it to become a level based mobile puzzle
+              game.</p1> </div>
+        </div>
+        <div class="slide active" id="oosgameplay">
+          <!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page4/4">
+					 <h3r>Lessons Learned</h3r>			</a>--> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page4/1"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>Tiles
+                  aparT</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>A
+                    singleplayer puzzle game with over 50 carefully crafted
+                    levels that will boggle your mind.</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Out of the App Store, Google Play, and Itch.io.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Puzzle Game.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>16 Developers over 8 Weeks.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unity.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="tagameplay"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/Tiles Apart Trailer.mp4#t=11"
+
+                    type="video/mp4" /> </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="tacorepuzzledesign"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page4"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page4/2"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Core
+                  Puzzle Design</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Process</p2r>
+                  <br />
+                  <p1w>Physically prototyping different movement and control
+                    mechanics using Doolhof(Labyrinth) pieces until our desired
+                    level of depth and elegance was reached.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/tilesapart/TA_Core.png">
+                  <img data-src="imgs/tilesapart/TA_Core.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="tacore" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="taadaptation"> <a class="arrownameplateleft" id="skilldiscipletech1"
+
+            href="#page4/1"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page4/3"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Tabletop-Mobile
+                  Adaptation</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Research</p2r>
+                  <br />
+                  <p1w>Dysect Doolhof, documenting it step by step, then pick
+                    and choose which elements to keep and focus on when adapting
+                    it into a mobile level-based puzzle game.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/tilesapart/TA_Adaptation.png">
+                  <img data-src="imgs/tilesapart/TA_Adaptation.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="taadaptation" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="tatilesetmecahnics"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page4/2"> <h3r>BACK</h3r> </a> <a
+
+            class="arrownameplateright" id="skilldiscipletech1" href="#page4/4">
+            <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Tileset
+                  Mechanics</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Prototyping</p2r>
+                  <br />
+                  <p1w>Prototype a big variety of tilesets, judging them by how
+                    much depth they would add to the system and how well they
+                    expand our options in level creation.</p1w> <br />
+                  <p2r>Defining Feature Set</p2r> <br />
+                  <p1w>Select a set number of them to be developed in order of
+                    priority, determined by applying Clockwork Game Design
+                    methodology, specifically analyzing their impact when
+                    applied together to the game as a whole.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/tilesapart/TA_TilesetMechanics.png">
+                  <img data-src="imgs/tilesapart/TA_TilesetMechanics.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="tatilesetmechanics" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="talesseonslearned"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page4/3"> <h3r>BACK</h3r> </a> <a
+
+            class="arrownameplateright" id="skilldiscipletech1" href="#page4"> <h3r>RESTART</h3r>
+          </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Lessons
+                  Learned</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Core
+                    Up And Running</p2r> <br />
+                  <p1w>Getting the core of a game playable as soon as possible
+                    is a great motivator for the team and ensures you have a
+                    solid base to work from.</p1w> <br />
+                  <p2r>Onboarding is a Priority</p2r> <br />
+                  <p1w>We did not take ease of onboarding as a factor in our
+                    considerations when picking our core and secondary
+                    mechanics.This limited our user base dramatically and proved
+                    a very difficult issue to solve during development.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/tilesapart/TA_LessonsLearned.png">
+                  <img data-src="imgs/tilesapart/TA_LessonsLearned.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="talessonslearned" /> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="mineblowers" data-anchor="mineblowers"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page6"> <h3r>NEXT PROJECT</h3r> </a>
+        <a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
+          <h3r>Contact</h3r> </a> <a class="arrownameplatebottomright" id="skilldiscipletech1"
+
+          href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="gametitle" id="tilesaparttitle"> <gametitle>2017</gametitle>
+        </div>
+        <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a href="https://drive.google.com/open?id=1NFPWtUka3tKr10Rcm0v6PWEkXUoFIvoG"
+
+            target="_blank" style="display: inline-block; 
+					  height: 100%;">
+            <div class="detailsbox" id="mbdownload"> <b4r>downloAd</b4r> </div>
+          </a> </div>
+        <div class="rarnamebox" id="rarnamebox1"> <b3>role(S) &amp;
+            responsibilities</b3> </div>
+        <div class="rar" id="tilesapartdescription" style="left: 120px;">
+          <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Tech
+              Designer</h3rar> <p2r style="padding-top: 3px;">Custom Controller</p2r>
+            <br />
+            <p1>Designing the custom pump controller, selecting and testing the
+              necessary parts, wiring them up to the Arduino and attaching them
+              to the bike pump.</p1> </div>
+        </div>
+        <div class="rar" id="tilesapartdescription" style="right: 120px;">
+          <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <p2r style="padding-top: 37.8px;">Balancing
+              Movement</p2r> <br />
+            <p1>Altering the speed of movement and tilt of the minecart either
+              in-engine or by altering the distance and positioning of the IR
+              sensor on the pump.</p1> </div>
+        </div>
+        <div class="slide active" id="oosgameplay">
+          <!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page5/3">
+					 <h3r>Lessons Learned</h3r>			</a>--> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page5/1"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>MineblowerS</gametitle2>
+                <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>Race
+                    out of town as fast as possible while balancing your speed
+                    to stay on the tracks. Played best using our custom pump
+                    controller!</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Available for Download.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Time Trial Runner.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>8 Developers over 2 Weeks.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Engine 4.18, Arduino, Tinkercad.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="mbgameplay"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/mb/MB_Gameplay.mp4#t=2" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="mbcustomcontroller"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page5"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page5/2"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Custom
+                  Controller</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Game-Jam
+                    Timeframe</p2r> <br />
+                  <p1w>We were working under a tight deadline so we had to work
+                    with the parts we had readily available or that we could
+                    have delivered to us within a few days.</p1w> <br />
+                  <p2r>Tinkering</p2r> <br />
+                  <p1w>We attempted several options for translating the pumping
+                    action in-game, including a potentiometer and wheel combo
+                    and an air flow sensor but finally ended up with an IR
+                    sensor and a reflector.</p1w> <br />
+                  <p2r>Process</p2r> <br />
+                  <p1w>My process was designing the circuit on Tinkercad after
+                    which I created a diagram and the physical prototype.</p1w>
+                </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/mb/MB_Controller.png">
+                  <img data-src="imgs/mb/MB_Controller.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="mbcontro" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="taadaptation"> <a class="arrownameplateleft" id="skilldiscipletech1"
+
+            href="#page5/1"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page5/3"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Balancing
+                  Movement</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Many
+                    Variables</p2r> <br />
+                  <p1w>Tweaking the movement proved especially challenging, as I
+                    wasn't working with a completely stable controller and a lot
+                    of variables were fluctuating because of the actuation of
+                    the pump itself.</p1w> <br />
+                  <p2r>Moderate Workout</p2r> <br />
+                  <p1w>After a lot of adjustments both to the controller and to
+                    the blueprints, I've achieved a desired speed and tilt rate
+                    that would provide an adequate amount of challenge and not
+                    completely tire out an average player.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/mb/MB_MovementBalacing.png">
+                  <img data-src="imgs/mb/MB_MovementBalacing.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="mbmov" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="tatilesetmecahnics"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page5/2"> <h3r>BACK</h3r> </a> <a
+
+            class="arrownameplateright" id="skilldiscipletech1" href="#page5"> <h3r>RESTART</h3r>
+          </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Lessons
+                  Learned</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Research
+                    in Pre-Production</p2r> <br />
+                  <p1w>Because of the short development time, I've experienced
+                    the issues that can arise from not doing enough research
+                    ahead of time. This was compounded by my lack of experience
+                    in electrical engineering.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/mb/MB_LessonsLearned.png">
+                  <img data-src="imgs/mb/MB_LessonsLearned.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="mblessons" /> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="dmsalvation" data-anchor="dmsalvation"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page7"> <h3r>OTHER PROJECTS</h3r> </a>
+        <a class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
+          <h3r>CONTACT</h3r> </a> <a class="arrownameplatebottomright" id="skilldiscipletech1"
+
+          href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="gametitle" id="tilesaparttitle"> <gametitle>2017</gametitle>
+        </div>
+        <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a href="https://drive.google.com/open?id=11eSd2DN1vPFwjYtXAJPZ4auQUtsONqeB"
+
+            target="_blank" style="display: inline-block; 
+					  height: 100%;">
+            <div class="detailsbox" id="mbdownload"> <b4r>downloAd</b4r> </div>
+          </a> </div>
+        <div class="rarnamebox" id="rarnamebox1"> <b3>role(S) &amp;
+            responsibilities</b3> </div>
+        <div class="rar" id="tilesapartdescription" style="left: 120px;">
+          <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Level
+              Designer</h3rar> <p2r style="padding-top: 3px;">Research UT</p2r>
+            <br />
+            <p1>Getting acquainted with Unreal Tournament and understanding what
+              makes their levels tick.</p1> <br />
+            <p2r>Blockouts</p2r> <br />
+            <p1>Creating gameplay spaces in a gym environment.</p1> </div>
+        </div>
+        <div class="rar" id="tilesapartdescription" style="right: 120px;">
+          <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <p2r style="padding-top: 37.8px;">Organizing
+              Playtests</p2r> <br />
+            <p1>Arranging playtests for my own map and those of other students
+              and keeping detailed records to inform my next iterations.</p1> </div>
+        </div>
+        <div class="slide active" id="oosgameplay">
+          <!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page6/4">
+					 <h3r>Lessons Learned</h3r>			</a>--> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page6/1"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>DM-salvation</gametitle2>
+                <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>An
+                    Unreal Tournament map built for 2-6 players, inside and
+                    around an abandoned Soviet missile silo.</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Available for Download.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Arena FPS.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>Solo Project over 8 Weeks.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Tournament Editor, Unreal Engine 4.18.</p1w> </div>
+              </div>
+              d
+              <div class="imagehousing2" id="prototupe88"> <video id="dmgameplay"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/dm/DM_Gameplay.mp4#t=24" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="dmresearch"> <a class="arrownameplateleft" id="skilldiscipletech1"
+
+            href="#page6"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page6/2"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Research
+                  UT</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>MDA
+                    Analysis</p2r> <br />
+                  <p1w>Created a diagram to categorize the system in Unreal
+                    Tournament via the MDA model.</p1w> <br />
+                  <p2r>Map Analysis</p2r> <br />
+                  <p1w>By analyzing successful maps I was able to pick up on
+                    common elements and inform what are common choices in UT
+                    level design and what are unique elements.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/dm/DM_Research.png">
+                  <img data-src="imgs/dm/DM_Research.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="dmresearch" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="dmblockouts"> <a class="arrownameplateleft" id="skilldiscipletech1"
+
+            href="#page6/1"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page6/3"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Blockouts</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>One-Offs</p2r>
+                  <br />
+                  <p1w>Creating several very rough layouts using the metrics
+                    I've gathered from existing maps to get a general feel of
+                    the direction I wanted to head into.</p1w> <br />
+                  <p2r>Iterations &amp; Documentation</p2r> <br />
+                  <p1w>Once I had a clear direction I started iterating on
+                    specific sections of the map and documenting the process for
+                    future reference. This way I was also able to improve my
+                    speed and efficiency at creating the blockout by showing my
+                    exact process and asking for feedback.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="dmblockouts"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/dm/DM_Blockouts.mp4#t=48" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="dmplaytests"> <a class="arrownameplateleft" id="skilldiscipletech1"
+
+            href="#page6/2"> <h3r>BACK</h3r> </a> <a class="arrownameplateright"
+
+            id="skilldiscipletech1" href="#page6/4"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Organizing
+                  Playtests</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Planning</p2r>
+                  <br />
+                  <p1w>I've started an initiative of planning and scheduling
+                    playtests for several of the maps that were being developed
+                    at the time. This was done using a centralized sign-up sheet
+                    and recorded for viewing in post.</p1w> <br />
+                  <p2r>Overseeing</p2r> <br />
+                  <p1w>I personally oversaw the tests and saw to any technical
+                    issues we were having, be it with the machines or the game
+                    servers.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/dm/DM_Playtesting.png">
+                  <img data-src="imgs/dm/DM_Playtesting.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="dmtests" /> </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="dmlessonslearned"> <a class="arrownameplateleft"
+
+            id="skilldiscipletech1" href="#page6/3"> <h3r>BACK</h3r> </a> <a
+
+            class="arrownameplateright" id="skilldiscipletech1" href="#page6"> <h3r>RESTART</h3r>
+          </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <h3w>Lessons
+                  Learned</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Convoluted
+                    Theme</p2r> <br />
+                  <p1w>If people can't put their finger on what you are trying
+                    to convey (in this case being the theme of the map), it is
+                    likely a bad idea to go ahead with it if you don't have the
+                    necessary time to clarify your intentions. My level design
+                    proposal suffered from this issue.</p1w> <br />
+                  <p2r>Document Process</p2r> <br />
+                  <p1w>Documenting your process in detail is extremely valuable
+                    for future reference and should be done whenever time allows
+                    for it.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <a href="imgs/dm/DM_LessonsLearned.png">
+                  <img data-src="imgs/dm/DM_LessonsLearned.png" style="display: block;
+									position: absolute;									top: 50%;
+									transform: translateY(-50%);" alt="dmlessons" /> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="otherprojects" data-anchor="otherprojects"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page8"> <h3r>SKILLS</h3r> </a> <a class="arrownameplatebottomleft"
+
+          id="skilldiscipletech1" href="#page9"> <h3r>CONTACT</h3r> </a> <a class="arrownameplatebottomright"
+
+          id="skilldiscipletech1" href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <div class="gametitle" id="tilesaparttitle"> <gametitle>2016 - present</gametitle>
+        </div>
+        <div class="rarnamebox" id="rarnamebox1"> <b3>role(S) &amp;
+            responsibilities</b3> </div>
+        <div class="slide active" id="nicetryplane">
+          <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a
+
+              href="https://droodlsaurus.itch.io/nice-try-plane" target="_blank"
+
+              style="display: inline-block; 
+						  height: 100%;">
+              <div class="detailsbox" id="mbdownload"> <b4r>itch.IO</b4r> </div>
+            </a> </div>
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Tech
+                Designer</h3rar> <p2r style="padding-top: 3px;">Falling Objects</p2r>
+              <br />
+              <p1>Logic for objects falling, attaching themselves onto your
+                plane, being hit by the players and then falling off your plane.</p1>
+            </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <p2r style="padding-top: 37.8px;">Balancing</p2r>
+              <br />
+              <p1>Getting the weight and rate of rotation perfect to achieve a
+                state of flow.</p1> <br />
+              <p2r>Ladders</p2r> <br />
+              <p1>Creating the logic for going up and down ladders and hooking
+                up the UI elements.</p1> </div>
+          </div>
+          <!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page7/3">
+					 <h3r>Overmind</h3r>			</a>--> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page7/1"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>Nice
+                  Try, Plane!</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>Balance
+                    keeping the plane upright with your greed as you compete
+                    with your friends to see who can rack up the highest score
+                    while not plummeting off.</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Out on Itch.io.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Competitive Co-op Party Game.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>11 Developers during the Global Game Jam 2019.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Engine 4.21, HOUDINI.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="nicetryplanevid"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/ntp/NTP_Gameplay.mp4" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="ephemeralenergy">
+          <!--<div class="details" id="tilesapartdetails"
+				 style="z-index: 200;">				<a href="https://droodlsaurus.itch.io/nice-try-plane" 
+				   target="_blank"				   style="display: inline-block; 
+						  height: 100%;">					<div class="detailsbox" id="mbdownload">
+						<b4r>downloAd here</b4r>					</div>
+				</a>			</div>-->
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Producer</h3rar>
+              <p2r style="padding-top: 3px;">Organizing Feature Teams</p2r> <br />
+              <p1>Divide up the team to work towards several objectives.</p1> </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <p2r style="padding-top: 37.8px;">Managing
+                the Backlog</p2r> <br />
+              <p1>Using Trello to keep track of the backlog, assign tasks and
+                give feedback to work in progress.</p1> </div>
+          </div>
+          <a class="arrownameplateleft" id="skilldiscipletech1" href="#page7"> <h3r>BACK</h3r>
+          </a> <a class="arrownameplateright" id="skilldiscipletech1" href="#page7/2">
+            <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>Ephemeral
+                  Energy</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>Sneak
+                    through ruins guarded by ancient sentries to gather the 3
+                    crystals of power.</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Complete.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Top Down Stealth Game.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>15 Developers over 8 Weeks.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Engine 4.17.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="eevid" loop=""
+
+                  muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/ee/EE_Gameplay.mp4" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="yellowsubmarine">
+          <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a
+
+              href="https://globalgamejam.org/2017/games/yellow-submarine" target="_blank"
+
+              style="display: inline-block; 
+						  height: 100%;">
+              <div class="detailsbox" id="mbdownload"> <b4r>downloAd</b4r> </div>
+            </a> </div>
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>Tech
+                Designer</h3rar> <p2r style="padding-top: 3px;">Rhythm Game</p2r>
+              <br />
+              <p1>Logic behind the rhythm game section developed in blueprints
+                using a string for beat information input. UI implemented and
+                synced up to the beat.</p1> </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <p2r style="padding-top: 37.8px;">Radar
+                Concept</p2r> <br />
+              <p1>Helped create the radar concept and tied the speed of rotation
+                to the rhythm game section.</p1> </div>
+          </div>
+          <a class="arrownameplateleft" id="skilldiscipletech1" href="#page7/1">
+            <h3r>BACK</h3r> </a> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page7/3"> <h3r>LEARN MORE</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>Yellow
+                  Submarine</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>Safely
+                    navigate the treacherous waters with a balalaika powered
+                    sonar!</p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Available on the Global Game Jam site.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>Co-op Navigation Rhythm Game.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>6 Developers during the Global Game Jam 2017.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Engine 4.17.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="ysgameplay"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/ys/YS_Gameplay.mp4" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="overmind">
+          <div class="details" id="tilesapartdetails" style="z-index: 200;"> <a
+
+              href="https://drive.google.com/open?id=1RTPkhhWkEEm2XSjL5ZEWrk5HLR9EJbv7"
+
+              target="_blank" style="display: inline-block; 
+						  height: 100%;">
+              <div class="detailsbox" id="mbdownload"> <b4r>downloAd</b4r> </div>
+            </a> </div>
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <h3rar>UI/UX
+                Designer</h3rar> <p2r style="padding-top: 3px;">Interface</p2r>
+              <br />
+              <p1>Designed and implemented the radar ring that tracks the
+                progress in a round and threats around the player.</p1> <br />
+              <h3rar>Audio Producer</h3rar> <p2r style="padding-top: 3px;">SFX</p2r>
+              <br />
+              <p1>Created and implemented all sound effects</p1> </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <h3rar>Level
+                Designer</h3rar> <p2r style="padding-top: 3px;">Tutorial</p2r>
+              <br />
+              <p1>Created the concept for the tutorial level, the blockout of
+                the level and all the triggers to transition through each stage
+                of the tutorial.</p1> </div>
+          </div>
+          <a class="arrownameplateleft" id="skilldiscipletech1" href="#page7/2">
+            <h3r>BACK</h3r> </a> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page7"> <h3r>RESTART</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities"> <gametitle2>oVerminD</gametitle2>
+                <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p1w>The
+                    (potential) future of squad-based tactics. Control your
+                    drone squad member's every action in first person as they
+                    breach and clear room after room. As you are sending out
+                    your control signal remotely, you only get the visual
+                    information about the enemies whereabouts from one turn
+                    prior. </p1w> <br />
+                  <p2r>Status</p2r> <br />
+                  <p1w>Available for Download.</p1w> <br />
+                  <p2r>Genre</p2r> <br />
+                  <p1w>First Person Squad Based Tactics.</p1w> <br />
+                  <p2r>Scope</p2r> <br />
+                  <p1w>4 Developers over 8 Weeks.</p1w> <br />
+                  <p2r>Engine &amp; Tools</p2r> <br />
+                  <p1w>Unreal Engine 4.18.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> <video id="overmindvid"
+
+                  loop="" muted="muted" data-autoplay="" controls="controls" allowfullscreen=""
+
+                  style="max-width: 100%; 
+									  height: 100%;"> <source data-src="videos/om/OM_Gameplay.mp4#t=18" type="video/mp4" />
+                </video> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="skillsnew" data-anchor="skills"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page9"> <h3r>ABOUT ME</h3r> </a> <a
+
+          class="arrownameplatebottomleft" id="skilldiscipletech1" href="#page9">
+          <h3r>CONTACT</h3r> </a> <a class="arrownameplatebottomright" id="skilldiscipletech1"
+
+          href="CV_RaduTeodosescu.pdf"> <h3r>CV</h3r> </a>
+        <!--<div class="gametitle" id="tilesaparttitle">
+					<gametitle>Skills</gametitle>			</div>-->
+        <div class="rarnamebox" id="rarnamebox1"> <b3>Proficient With</b3> </div>
+        <div class="slide active" id="techskills">
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox">
+              <div class="imgp" id="ue4p"> <img data-src="imgs/engines/unreal.png"
+
+                  alt="ue4" /> <h5r>UE4</h5r> </div>
+              <div class="imgp" id="unityp"> <img data-src="imgs/engines/unity.png"
+
+                  alt="unity" /> <h5r>Unity</h5r> </div>
+              <div class="imgp" id="p4vp"> <img data-src="imgs/sourcecontrol/perforce.png"
+
+                  alt="perforce" /> <h5r>P4V</h5r> </div>
+              <div class="imgp" id="svnp"> <img data-src="imgs/sourcecontrol/svn.png"
+
+                  alt="svn" /> <h5r>SVN</h5r> </div>
+            </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox">
+              <div class="imgp" id="githubp"> <img data-src="imgs/sourcecontrol/github.png"
+
+                  alt="github" /> <h5r>Git</h5r> </div>
+              <div class="imgp" id="premierep"> <img data-src="imgs/adobe/premiere.png"
+
+                  alt="premiere" /> <h5l>Premiere</h5l> </div>
+              <div class="imgp" id="auditionp"> <img data-src="imgs/adobe/audition.png"
+
+                  alt="audition" /> <h5l>Audition</h5l> </div>
+              <div class="imgp" id="dreamweaverp"> <img data-src="imgs/adobe/dreamweaver.png"
+
+                  alt="dreamweaver" /> <h5l>Dreamweaver</h5l> </div>
+            </div>
+          </div>
+          <!--<a class="arrownameplateleft" id="skilldiscipletech1" href="#page8/2">
+					 <h3r>PRODUCTION</h3r>			</a>--> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page8/1"> <h3r>DESIGN</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
+                <gametitle2>Tech skills</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Visual
+                    Scripting</p2r> <br />
+                  <p1w>700+ Hours of experience with Unreal Engine 4 blueprints.
+                    (over the course of 2.5 years)</p1w> <br />
+                  <p2r>Adaptable</p2r> <br />
+                  <p1w>Ability to quickly pick up a new scripting language or
+                    proprietary tool. Examples include Twine and the
+                    Awesomenauts Dev Tools. </p1w> <br />
+                  <p2r>Editor</p2r> <br />
+                  <p1w>I enjoy the edditing process. Experience editing and
+                    mixing trailer footage and music vocals.</p1w> <br />
+                  <p2r>This Website</p2r> <br />
+                  <p1w>Using the framework of</p1w> <a target="_blank" href="https://alvarotrigo.com/fullPage/">
+                    <div class="linkbox" id="wellcooked" style="display: inline-block;">
+                      <p1w>fullpage.js</p1w></div>
+                  </a> <p1w>I picked up the html, css and javascript required
+                    to create this site.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide " id="designskills">
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox">
+              <div class="imgp" id="sheetsp"> <img data-src="imgs/google/sheets.png"
+
+                  alt="sheets" style="height: 100%;" /> <h5r>Sheets</h5r> </div>
+              <div class="imgp" id="excelp"> <img data-src="imgs/microsoft/excel.png"
+
+                  alt="excel" style="height: 100%;" /> <h5r>Excel</h5r> </div>
+            </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox">
+              <div class="imgp" id="indesignp"> <img data-src="imgs/adobe/indesign.png"
+
+                  alt="indesign" /> <h5l>Indesign</h5l> </div>
+              <div class="imgp" id="illustratorp"> <img data-src="imgs/adobe/illustrator.png"
+
+                  alt="illustrator" /> <h5l>Illustrator</h5l> </div>
+            </div>
+          </div>
+          <a class="arrownameplateleft" id="skilldiscipletech1" href="#page8"> <h3r>TECH</h3r>
+          </a> <a class="arrownameplateright" id="skilldiscipletech1" href="#page8/2">
+            <h3r>PRODUCTION</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
+                <gametitle2>Design skills</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Level
+                    Design</p2r> <br />
+                  <p1w>400+ Hours of experience sketching, creating blockouts,
+                    testing and iterating. (over the course of 2.5 years)</p1w>
+                  <br />
+                  <p2r>Game Design</p2r> <br />
+                  <p1w>Concepting and iteration of rulesets for diverse genres
+                    of video games and board games. Heavily envolved in the
+                    design of every project i've worked on.</p1w> <br />
+                  <p2r>Systems Design</p2r> <br />
+                  <p1w>Systemically oriented in my design with a focus on
+                    scalability, synergy and exploring different methodologies.</p1w>
+                </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide " id="productionskills">
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox">
+              <div class="imgp" id="jirap"> <img data-src="imgs/production/jira.png"
+
+                  alt="jira" /> <h5r>Jira</h5r> </div>
+              <div class="imgp" id="trello"> <img data-src="imgs/production/hack'n'plan.png"
+
+                  alt="hack'n'plan" /> <h5r>HacknPlan</h5r> </div>
+              <div class="imgp" id="trello"> <img data-src="imgs/production/trello.png"
+
+                  alt="jira" /> <h5r>Trello</h5r> </div>
+            </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox">
+              <div class="imgp" id="Omnifocusp"> <img data-src="imgs/production/omnifocus.png"
+
+                  alt="Omnifocus" /> <h5l>Omnifocus</h5l> </div>
+              <div class="imgp" id="projectsp"> <img data-src="imgs/microsoft/project.png"
+
+                  alt="projects" style="height: 100%;" /> <h5l>Projects</h5l> </div>
+              <div class="imgp" id="powerpointp"> <img data-src="imgs/microsoft/powerpoint.png"
+
+                  alt="powerpoint" style="height: 100%;" /> <h5l>Powerpoint</h5l>
+              </div>
+            </div>
+          </div>
+          <a class="arrownameplateleft" id="skilldiscipletech1" href="#page8/1">
+            <h3r>DESIGN</h3r> </a> <a class="arrownameplateright" id="skilldiscipletech1"
+
+            href="#page8"> <h3r>TECH</h3r> </a>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
+                <gametitle2>Production skills</gametitle2> <br />
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Agile
+                    Scrum</p2r> <br />
+                  <p1w>6 Team Projects using Agile Methodology. Experience as
+                    Producer for a team of 15. (Ephemeral Energy)</p1w> <br />
+                  <p2r>Task Management &amp; Time Tracking</p2r> <br />
+                  <p1w>Personal ambition to effectively manage my time and keep
+                    track of my tasks efficiently using automated methods if
+                    available.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="aboutme" data-anchor="skills"> <a class="arrownameplatebottom"
+
+          id="skillssectionplate" href="#page1"> <h3r>RESTART</h3r> </a>
+        <!--	<div class="gametitle" id="tilesaparttitle">
+					<gametitle>About Me</gametitle>			</div>-->
+        <div class="rarnamebox2" id="rarnamebox1"> <b3>Contact &amp; Cv</b3> </div>
+        <div class="slide active" id="techskills">
+          <div class="rar" id="tilesapartdescription" style="left: 120px;">
+            <div class="rartextboxright" id="TAdresponsabilitiestextbox"> <a target="_blank"
+
+                class="imgp" id="ue4p" href="https://linkedin.com/in/radudesign">
+                <img data-src="imgs/linkedin.png" alt="linkedin" /> <h5r>Linkedin</h5r>
+              </a> <a target="_blank" class="imgp" id="unityp" href="https://twitter.com/radu_design">
+                <img data-src="imgs/twitter.png" alt="twitter" /> <h5r>Twitter</h5r>
+              </a> <br />
+              <p2r>Email</p2r> <br />
+              <a href="mailto:contact@radu.design"> <p1>contact@radu.design</p1></a>
+            </div>
+          </div>
+          <div class="rar" id="tilesapartdescription" style="right: 120px;">
+            <div class="rartextboxleft" id="TAdresponsabilitiestextbox"> <a class="imgp"
+
+                id="githubp" href="CV_RaduTeodosescu.pdf"> <img data-src="imgs/pdf.png"
+
+                  alt="pdf" /> <h5r>CV</h5r> </a> </div>
+          </div>
+          <div class="imagepanel" id="tilesapartimagepanel3">
+            <div class="imagehousing" id="tilesapartimagehousing">
+              <div class="imagedescription" id="tilesapartmyresponsabilities" style="left: 50%; transform: translate(-50%,-50%); width: auto; max-width: calc(100% - 200px);">
+                <gametitle2>About Me</gametitle2> <br />
+                <h3w>Pastimes outside of games</h3w>
+                <div class="textbox" id="TAdresponsabilitiestextbox"> <p2r>Dance
+                    Choreography</p2r> <br />
+                  <p1w>A passion of mine ever since I learned street dancing.
+                    Given the right resources I would try it profesionally.</p1w>
+                  <br />
+                  <p2r>Cortex Podcast</p2r> <br />
+                  <p1w>I've seen my day to day working life in a very different
+                    light since listening to this podcast. Key listening
+                    material for the creative professional.</p1w> </div>
+              </div>
+              <div class="imagehousing2" id="prototupe88"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
 		anchors: ['page1','page2','page3','page4','page5','page6','page7','page8','page9'],
 		navigation: true,
@@ -1858,60 +1328,28 @@
 		afterLoad: function(origin, destination, direction){},
 		afterSlideLoad: function(origin, destination, direction){}
 	});
-</script>
-
-
-	<!--My Code-->
-	
-	
-
-	
-	
-<!--<div id="menubutton" class="menubutton" onClick="openNav()">
-	</div>
-	
-<div id="xbutton" class="xbutton" onClick="closeNav()">
-	</div>
-	
-	
-<div id="myNav" class="overlay">
-	</div>-->
-	
-<!--<div id="linkedin" class="linkedin">
-	<a href="https://www.linkedin.com/in/radudesign">
-		<img src="imgs/linkedin.png">
-	</a>
-</div>-->
-
-	
-<!--<div id="twitter" class="twitter">
-	<a href="https://twitter.com/radu_design">
-		<img src="imgs/twitter.png">
-	</a>
-</div>-->	
-	
-	
-<!--<div id="menulist" class="menulist">
-	<div id="menuaboutme" class="menuitem">
-		<menuitemheavy>About Me</menuitemheavy>
+</script> <!--My Code-->
+    <!--<div id="menubutton" class="menubutton" onClick="openNav()">
 	</div>	
-	<div id="menugames" class="menuitem">
-		<menuitemheavy>Games</menuitemheavy>
-	</div>
-	<div id="menuskills" class="menuitem">
-		<menuitemheavy>Skills</menuitemheavy>
-	</div>
-	<div id="menumoreprojects" class="menuitem">
-		<menuitemheavy>More Projects</menuitemheavy>
-	</div>
-	<div id="menucv" class="menuitem">
-		<menuitemheavy>CV</menuitemheavy>
-	</div>
-</div>-->
-	
-
-	
-<style>
+<div id="xbutton" class="xbutton" onClick="closeNav()">	</div>
+		
+<div id="myNav" class="overlay">	</div>-->
+    <!--<div id="linkedin" class="linkedin">
+	<a href="https://www.linkedin.com/in/radudesign">		<img src="imgs/linkedin.png">
+	</a></div>-->
+    <!--<div id="twitter" class="twitter">
+	<a href="https://twitter.com/radu_design">		<img src="imgs/twitter.png">
+	</a></div>-->
+    <!--<div id="menulist" class="menulist">
+	<div id="menuaboutme" class="menuitem">		<menuitemheavy>About Me</menuitemheavy>
+	</div>		<div id="menugames" class="menuitem">
+		<menuitemheavy>Games</menuitemheavy>	</div>
+	<div id="menuskills" class="menuitem">		<menuitemheavy>Skills</menuitemheavy>
+	</div>	<div id="menumoreprojects" class="menuitem">
+		<menuitemheavy>More Projects</menuitemheavy>	</div>
+	<div id="menucv" class="menuitem">		<menuitemheavy>CV</menuitemheavy>
+	</div></div>-->
+    <style>
 img {
     display: block;
 	margin-left: auto;
@@ -1920,8 +1358,5 @@ img {
 	max-height: 100%;
 }
 </style>
-
-	
-
-</body>
+  </body>
 </html>
