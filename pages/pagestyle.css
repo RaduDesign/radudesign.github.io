@@ -1,0 +1,315 @@
+@font-face {
+    font-family: "MajorMonoDisplay";
+    src: url('../fonts/MajorMonoDisplay-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url('../fonts/NotoSans-Regular.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url('../fonts/NotoSans-Bold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: bold;
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url('../fonts/NotoSans-Italic.ttf') format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url('../fonts/NotoSans-LightItalic.ttf') format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "NotoSans";
+    src: url('../fonts/NotoSans-SemiBold.ttf') format("truetype");
+    font-weight: 600;
+    font-style: bold;
+}
+
+body {
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+hr {
+    border-width:thin;
+    border-style:solid;
+    color: gray;
+    width: 90vw;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+/*    background-color:aquamarine;*/
+    width: min(90vw,300px);
+/*    height: 100%;*/
+    display: inline-block;
+    float: right;
+/*    margin-right: 5vw;*/
+/*    padding-top: 50px;*/
+/*    padding-bottom: 50px;*/
+}
+.section{
+/*    background-color: cadetblue;*/
+    background-clip: content-box;
+    width: 90vw;
+/*    height: 700px;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-content: center;
+/*    align-items: center;*/
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.aboutvisual {
+/*    background-color: bisque;    */
+    background-clip: content-box;
+    display: inline-block;
+    height: max(300px,min(400px,30vw));
+    width: auto;
+    padding: 30px;
+    box-sizing: border-box;
+/*    float: left;*/
+/*    position: absolute;*/
+}
+.abouttextleft {
+/*    background-color: coral;*/
+    background-clip: content-box;
+    display: inline-block;
+    width: max(500px,min(700px,40%));
+    height: max(200px,100%);
+    padding: 30px;
+    box-sizing: border-box;
+/*    float:left;*/
+/*    position: fixed;*/
+}
+.abouttextright {
+/*    background-color: coral;*/
+    background-clip: content-box;
+    display: inline-block;width: max(500px,min(700px,40%));
+    height: max(200px,100%);
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: right;
+/*    float:left;*/
+/*    position: fixed;*/
+}
+
+.header {
+/*    background-color: aqua;*/
+    margin: auto;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-content:center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.navigation {
+/*    background-color: aqua;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: auto;
+    grid-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.projectsbutton {
+/*    background-color: beige;*/
+    width: auto;
+    height: auto;
+}
+
+.projectsbuttontop {
+/*    background-color: beige;*/
+    display: inline-block;
+    width: auto;
+    height: auto;
+/*    margin-left: 5vw;*/
+}
+
+.aboutbutton {
+/*    background-color: beige;*/
+    width: auto;
+    height: auto;
+}
+
+.CVbutton {
+/*    background-color: beige;*/
+    width: auto;
+    height: auto;
+}
+
+.socialsbutton {
+/*    background-color: beige;*/
+    width: 50px;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.h1 {
+    font-family: 'MajorMonoDisplay';
+    font-size: min(7vw,2.6em);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.h2 {
+    font-family: 'MajorMonoDisplay';
+    font-size: 1em;
+    padding-bottom: 4px;
+}
+
+.t1 {
+    font-family: 'NotoSans';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.t2 {
+    font-family: 'NotoSans';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.t3 {
+    font-family: 'NotoSans';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+    padding-bottom: 3px;
+}
+
+.t4 {
+    font-family: 'NotoSans';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.3em;
+}
+
+.t5 {
+    font-family: 'NotoSans';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1em;
+}
+
+.t6 {
+    font-family: 'NotoSans';
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.2em;
+}
+
+.t7 {
+    font-family: 'NotoSans';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.f1 {
+    font-family: 'MajorMonoDisplay';
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.projectsbutton:hover .f1{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 2.5em;
+}
+
+.projectsbuttontop:hover .f1{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 2.5em;
+}
+
+.aboutbutton:hover .f1{
+    background-color: darkgreen;
+    color: white;
+    border-color: darkgreen;
+    font-size: 2.5em;
+}
+
+.CVbutton:hover .f1{
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-size: 2.5em;
+}
+
+.socialsbutton:hover .f1{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.socialsbutton:hover {
+    width: 60px;
+}
+
+.truebackground1{
+    background-color:#E2F3D3;
+}
+
+.truebackground2{
+    background-color:cornsilk;
+}
+
+.truebackground3{
+    background-color:mintcream;
+}
+
+.truebackground4{
+    background-color:fuchsia;
+}

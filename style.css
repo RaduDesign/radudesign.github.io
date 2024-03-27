@@ -1,0 +1,377 @@
+@font-face {
+    font-family: "MajorMonoDisplay";
+    src: url('./fonts/MajorMonoDisplay-Regular.ttf');
+}
+
+.test {
+    background-color: antiquewhite;
+}
+
+
+.projectgrid {
+/*    background-color: burlywood;*/
+    display: grid;
+    grid-template-rows: repeat(auto);
+    grid-template-columns: repeat(auto-fit,minmax(240px,360px));
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+    box-sizing: content-box;
+    justify-content: center;
+    align-content: center;
+/*    padding-top: 50px;*/
+    padding-bottom: 50px;
+/*
+    padding-left: 20px;
+    padding-right: 20px;
+*/
+    margin-left: 4vw;
+    margin-right: 4vw;
+/*
+    border-style: dashed;
+    border-width: thin;
+*/
+}
+.project {
+/*  background-color: yellow;*/
+  background-clip: content-box;
+} 
+.overlay {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: 0px;
+}
+.image_wrapper {
+    position: relative;
+    background-color: aqua;
+    height: 206px;
+    width: 100%;
+}
+
+.project:hover .overlay{
+    opacity: 1;
+}
+
+.project:hover .projectrole{
+    transform: translateY(-10px);
+    background-color: black;
+    color: white;
+}
+
+.project:hover .projectdate{
+    transform: translateY(-5px);
+    background-color: black;
+    color: white;
+}
+
+.project:hover .na{
+    background-color:bisque;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.projectrole {
+/*    background-color: aqua;*/
+    font-family: 'MajorMonoDisplay';
+    font-size: min(5vw,1.6em);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-clip: content-box;
+    transition: all 0.3s;
+}
+
+.projectdate {
+/*        background-color: aqua;*/
+    font-family: 'MajorMonoDisplay';
+     font-size: min(4vw,1.2em);
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    background-clip: content-box;
+    transition: all 0.3s;
+    line-height: 21px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.na {
+    background-color:coral;
+    transition: all 0.3s;
+}
+
+.sectionheader {
+/*    background-color: aqua;*/
+    margin-left: 4vw;
+    margin-right: 4vw;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h1 {
+/*    background-color: aqua;*/
+    font-family: 'MajorMonoDisplay';
+    font-size: min(10vw,2.6em);
+    text-align: center;
+}
+
+.h2 {
+/*    background-color: aqua;*/
+    font-family: 'MajorMonoDisplay';
+    font-size: min(10vw,2.6em);
+    text-align: left;
+}
+
+input {
+/*    appearance: none;*/
+/*    background-color: aqua;*/
+    order: 1;
+    cursor: pointer;
+    display: none;
+}
+
+label:hover .more{
+    font-size: min(10vw,2.4em);
+    color: white;
+}
+
+label:hover .less{
+    font-size: min(10vw,2.4em);
+    color: white;
+}
+
+label {
+/*    background-color: blue;*/
+    order: 1;
+    cursor: pointer;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 56px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 206px;
+    transition: all 0.3s;
+}
+
+label:hover {
+    background-color: black;
+}
+
+input:checked ~ .project{
+/*
+    background-color: red;
+    margin: 100px;
+*/
+    visibility: hidden;
+    display: none;
+}
+
+input:checked ~ label .less{
+    visibility: hidden;
+    display: none;
+}
+
+input:checked ~ label .more{
+    display: block;
+}
+
+input:checked ~ label{
+/*    background-color: red;*/
+}
+
+.more {
+    font-family: 'MajorMonoDisplay';
+    font-size: min(10vw,2em);
+    display: none;
+    transition: all 0.3s;
+}
+
+.less {
+    font-family: 'MajorMonoDisplay';
+    font-size: min(10vw,2em);
+    transition: all 0.3s;
+}
+
+.truebackground1{
+    background-color:#E2F3D3;
+}
+
+.truebackground2{
+    background-color:cornsilk;
+}
+
+.truebackground3{
+    background-color:mintcream;
+}
+
+.truebackground4{
+    background-color:fuchsia;
+}
+
+body {
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
+}
+
+.navigation {
+/*    background-color: aqua;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: auto;
+    grid-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.projectsbutton {
+/*    background-color: beige;*/
+    width: auto;
+    height: auto;
+}
+
+.projectsbuttontop {
+/*    background-color: beige;*/
+    display: inline-block;
+    width: auto;
+    height: auto;
+/*    margin-left: 5vw;*/
+}
+
+.aboutbutton {
+/*    background-color: beige;*/
+    width: auto;
+    height: auto;
+}
+
+.CVbutton {
+/*    background-color: beige;*/
+    width: auto;
+    height: auto;
+}
+
+.socialsbutton {
+/*    background-color: beige;*/
+    width: 50px;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.f1 {
+    font-family: 'MajorMonoDisplay';
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.projectsbutton:hover .f1{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 2.5em;
+}
+
+.projectsbuttontop:hover .f1{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-size: 2.5em;
+}
+
+.aboutbutton:hover .f1{
+    background-color: darkgreen;
+    color: white;
+    border-color: darkgreen;
+    font-size: 2.5em;
+}
+
+.CVbutton:hover .f1{
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-size: 2.5em;
+}
+
+.socialsbutton:hover .f1{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.socialsbutton:hover {
+    width: 60px;
+}
+
+.logo {
+/*    background-color:aquamarine;*/
+    width: min(90vw,300px);
+/*    height: 100%;*/
+    display: inline-block;
+    float:right;
+    margin-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header {
+/*    background-color: aqua;*/
+    margin: auto;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-content:center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.descriptiontop {
+/*    background-color: beige;*/
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 10vw;
+    padding-right: 100px;
+}
