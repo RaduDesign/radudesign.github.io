@@ -169,7 +169,7 @@ label {
     cursor: pointer;
     border-style: solid;
     border-width: thin;
-    margin-top: 56px;
+    margin-top: 34px;
     display: flex;
     align-content: center;
     text-align: center;
@@ -220,15 +220,15 @@ input:checked ~ label{
 }
 
 .truebackground1{
-    background-color:#E2F3D3;
+    background-color: #FFD243;
 }
 
 .truebackground2{
-    background-color:cornsilk;
+    background-color:#FBEFC0;
 }
 
 .truebackground3{
-    background-color:mintcream;
+    background-color:#FFD243;
 }
 
 .truebackground4{
