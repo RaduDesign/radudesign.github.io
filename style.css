@@ -55,7 +55,7 @@ img {
 }
 .image_wrapper {
     position: relative;
-    background-color: aqua;
+/*    background-color: aqua;*/
     height: 206px;
     width: 100%;
 }
@@ -135,12 +135,13 @@ a {
     font-family: 'MajorMonoDisplay';
     font-size: min(10vw,2.6em);
     text-align: center;
+    overflow:auto;
 }
 
 .h2 {
 /*    background-color: aqua;*/
     font-family: 'MajorMonoDisplay';
-    font-size: min(10vw,2.6em);
+    font-size: min(5vw,2.6em);
     text-align: left;
 }
 
