@@ -33,7 +33,7 @@
 }
 .project {
 /*  background-color: yellow;*/
-  background-clip: content-box;
+    background-clip: content-box;
 } 
 .overlay {
     background-color: white;
@@ -90,11 +90,12 @@ video {
     font-family: 'MajorMonoDisplay';
     font-size: min(5vw,1.6em);
     text-align: left;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 10px;
     padding-bottom: 10px;
     background-clip: content-box;
     transition: all 0.3s;
+    width: fit-content;
 }
 
 .projectdate {
@@ -103,12 +104,13 @@ video {
      font-size: min(4vw,1.2em);
     text-align: left;
     vertical-align: bottom;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 10px;
     padding-bottom: 14px;
     background-clip: content-box;
     transition: all 0.3s;
     line-height: 21px;
+    width: fit-content;
 }
 
 a {
@@ -342,7 +344,7 @@ body {
 
 .logo {
 /*    background-color:aquamarine;*/
-    width: min(90vw,300px);
+    width: min(90vw,250px);
 /*    height: 100%;*/
     display: inline-block;
     float:right;
